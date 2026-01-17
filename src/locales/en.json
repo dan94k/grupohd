@@ -156,72 +156,40 @@
     "list": {
       "accessControl": {
         "title": "Access Control",
-        "description": "Intelligent and rigorous management of entry and exit of people and vehicles, with registration, identification and security protocols.",
-        "benefits": [
-          "Complete identification and registration",
-          "Standardized security protocols",
-          "Real-time control",
-          "Detailed reports"
-        ]
+        "description": "Essential service for managing entry and exit at events, companies or residences, using rigorous protocols to identify and authorize access.",
+        "benefits": []
       },
       "reception": {
         "title": "Reception",
-        "description": "Professional and secure service, ensuring the best first impression with integrated security procedures.",
-        "benefits": [
-          "Trained professionals",
-          "Cordial and secure service",
-          "Visitor management",
-          "Integration with access control"
-        ]
-      },
-      "escort": {
-        "title": "Urban Cargo Vehicle Escort",
-        "description": "Specialized security in transport of valuables, sensitive cargo and high-value goods.",
-        "benefits": [
-          "Route planning",
-          "Armed and trained team",
-          "Support vehicles",
-          "Real-time monitoring"
-        ]
-      },
-      "vip": {
-        "title": "Authority and VIP Security",
-        "description": "Specialized personal protection for executives, authorities and personalities requiring maximum discretion and security.",
-        "benefits": [
-          "Certified agents",
-          "Displacement planning",
-          "Risk analysis",
-          "Absolute discretion"
-        ]
-      },
-      "armored": {
-        "title": "Armored Vehicle Operations",
-        "description": "Own fleet of armored vehicles for secure transport of valuables, documents and people.",
-        "benefits": [
-          "Own and modern fleet",
-          "Regular maintenance",
-          "Specialized drivers",
-          "National coverage"
-        ]
+        "description": "Professional service at the reception of corporate spaces, hotels or events, combining courtesy with discreet surveillance.",
+        "benefits": []
       },
       "safetyTour": {
         "title": "Safety Tour",
-        "description": "Specialized security for events, tours and displacements requiring complex planning and coordination.",
-        "benefits": [
-          "Complete planning",
-          "Multidisciplinary team",
-          "Logistical coordination",
-          "Coverage in multiple cities"
-        ]
+        "description": "Accompanying tourists to the destinations they desire – whether a classic city tour (e.g., Christ the Redeemer in Rio), cultural tours or personalized explorations. The guide (bilingual or not) takes care of navigation, locations and discreet security, using armored vehicles for transfers between points.",
+        "benefits": []
       },
       "facilities": {
         "title": "Facilities",
-        "description": "Complete facility management, including maintenance, cleaning, reception and integrated auxiliary services.",
+        "description": "Integrated facilities management, including building maintenance, cleaning and logistical support, with a focus on continuous security.",
+        "benefits": []
+      },
+      "escort": {
+        "title": "Urban Cargo Vehicle Escort",
+        "description": "Armed and monitored protection for goods transport in urban areas, preventing theft and delays. Support vehicles with tactical team, optimized routes and anti-hijacking protocols. Reduces risk of losses with dedicated escort, increases efficiency in timely deliveries and generates satisfaction for logistics companies needing security in chaotic cities.",
         "benefits": [
-          "Integrated management",
-          "Multifunctional team",
-          "Cost reduction",
-          "Guaranteed quality"
+          "Strategic planning: Route analysis, risk identification and definition of safe routes",
+          "Tactical team: Armed professionals trained in security logistics and rapid incident response",
+          "Guaranteed delivery: Real-time monitoring to final destination, with zero tolerance for deviations or losses"
+        ]
+      },
+      "armored": {
+        "title": "Armored Vehicle Operations – VIPs",
+        "description": "Secure transport for authorities, executives and VIPs using own fleet of armored vehicles, including escorts and transfers. Provides elite security in high-risk scenarios, ensuring efficiency with total discretion (without drawing attention), and maximizes satisfaction with premium comfort and absolute privacy. Satellite tracking, alternative route planning and coordination with security forces if needed. Perfect for events, travel or high-profile daily life.",
+        "benefits": [
+          "Premium fleet: Latest generation armored vehicles, level III-A or higher, with rigorous maintenance and anti-hijacking technology",
+          "Specialized drivers: Drivers trained in defensive and evasive driving and security protocols in critical situations",
+          "Tracking: 24-hour GPS monitoring with control center and immediate response to any detected anomaly"
         ]
       }
     },

@@ -5,8 +5,7 @@ import {
   FaUserTie, 
   FaTruck, 
   FaCar, 
-  FaTools, 
-  FaUserShield,
+  FaTools,
   FaRoute,
   FaCheckCircle
 } from 'react-icons/fa'
@@ -25,24 +24,20 @@ export default function Services() {
       icon: <FaUserTie />,
     },
     {
-      id: 'escort',
-      icon: <FaTruck />,
-    },
-    {
-      id: 'vip',
-      icon: <FaUserShield />,
-    },
-    {
-      id: 'armored',
-      icon: <FaCar />,
-    },
-    {
       id: 'safetyTour',
       icon: <FaRoute />,
     },
     {
       id: 'facilities',
       icon: <FaTools />,
+    },
+    {
+      id: 'escort',
+      icon: <FaTruck />,
+    },
+    {
+      id: 'armored',
+      icon: <FaCar />,
     }
   ]
 
@@ -59,30 +54,34 @@ export default function Services() {
       {/* Services List */}
       <section className="section services-list-section">
         <div className="container">
-          {services.map((service, index) => (
-            <div key={service.id} className={`service-detail ${index % 2 === 0 ? 'even' : 'odd'}`}>
-              <div className="service-detail-icon">
-                {service.icon}
-              </div>
-              <div className="service-detail-content">
-                <h2>{t(`services.list.${service.id}.title`)}</h2>
-                <p className="service-description">
-                  {t(`services.list.${service.id}.description`)}
-                </p>
-                <div className="service-benefits">
-                  <h4>Benefícios:</h4>
-                  <ul>
-                    {t(`services.list.${service.id}.benefits`, { returnObjects: true }).map((benefit, idx) => (
-                      <li key={idx}>
-                        <FaCheckCircle />
-                        <span>{benefit}</span>
-                      </li>
-                    ))}
-                  </ul>
+          <div className="services-grid">
+            {services.map((service) => (
+              <div key={service.id} className="service-detail">
+                <div className="service-detail-icon">
+                  {service.icon}
+                </div>
+                <div className="service-detail-content">
+                  <h2>{t(`services.list.${service.id}.title`)}</h2>
+                  <p className="service-description">
+                    {t(`services.list.${service.id}.description`)}
+                  </p>
+                  {t(`services.list.${service.id}.benefits`, { returnObjects: true }).length > 0 && (
+                    <div className="service-benefits">
+                      <h4>Benefícios:</h4>
+                      <ul>
+                        {t(`services.list.${service.id}.benefits`, { returnObjects: true }).map((benefit, idx) => (
+                          <li key={idx}>
+                            <FaCheckCircle />
+                            <span>{benefit}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
 

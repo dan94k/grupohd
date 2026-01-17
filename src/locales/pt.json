@@ -156,72 +156,40 @@
     "list": {
       "accessControl": {
         "title": "Controle de Acesso",
-        "description": "Gestão inteligente e rigorosa de entrada e saída de pessoas e veículos, com registro, identificação e protocolos de segurança.",
-        "benefits": [
-          "Identificação e registro completo",
-          "Protocolos de segurança padronizados",
-          "Controle em tempo real",
-          "Relatórios detalhados"
-        ]
+        "description": "Serviço essencial para gerenciar entradas e saídas em eventos, empresas ou residências, usando protocolos rigorosos para identificar e autorizar acessos.",
+        "benefits": []
       },
       "reception": {
         "title": "Recepção",
-        "description": "Atendimento profissional e seguro, garantindo a melhor primeira impressão com procedimentos de segurança integrados.",
-        "benefits": [
-          "Profissionais treinados",
-          "Atendimento cordial e seguro",
-          "Gestão de visitantes",
-          "Integração com controle de acesso"
-        ]
-      },
-      "escort": {
-        "title": "Escolta de Veículos Urbanos de Carga",
-        "description": "Segurança especializada no transporte de valores, cargas sensíveis e mercadorias de alto valor agregado.",
-        "benefits": [
-          "Planejamento de rotas",
-          "Equipe armada e treinada",
-          "Veículos de apoio",
-          "Monitoramento em tempo real"
-        ]
-      },
-      "vip": {
-        "title": "Segurança de Autoridades e VIPs",
-        "description": "Proteção pessoal especializada para executivos, autoridades e personalidades que exigem máxima discrição e segurança.",
-        "benefits": [
-          "Agentes certificados",
-          "Planejamento de deslocamentos",
-          "Análise de riscos",
-          "Discrição absoluta"
-        ]
-      },
-      "armored": {
-        "title": "Operações com Carros Blindados",
-        "description": "Frota própria de veículos blindados para transporte seguro de valores, documentos e pessoas.",
-        "benefits": [
-          "Frota própria e moderna",
-          "Manutenção regular",
-          "Motoristas especializados",
-          "Cobertura nacional"
-        ]
+        "description": "Atendimento profissional na recepção de espaços corporativos, hotéis ou eventos, combinando cortesia com vigilância discreta.",
+        "benefits": []
       },
       "safetyTour": {
         "title": "Safety Tour",
-        "description": "Segurança especializada para eventos, turnês e deslocamentos que exigem planejamento e coordenação complexa.",
-        "benefits": [
-          "Planejamento completo",
-          "Equipe multidisciplinar",
-          "Coordenação logística",
-          "Cobertura em múltiplas cidades"
-        ]
+        "description": "Acompanhamento de turistas pelos destinos que eles desejarem – seja um city tour clássico (Ex.: Cristo Redentor no RJ), passeios culturais ou explorações personalizadas. O guia (bilíngue ou não) cuida da navegação, dos locais e da segurança discreta, usando veículos blindados para traslados entre pontos.",
+        "benefits": []
       },
       "facilities": {
         "title": "Facilities",
-        "description": "Gestão completa de instalações, incluindo manutenção, limpeza, portaria e serviços auxiliares integrados.",
+        "description": "Gestão integrada de facilities, incluindo manutenção predial, limpeza e suporte logístico, com foco em segurança contínua.",
+        "benefits": []
+      },
+      "escort": {
+        "title": "Escolta de Veículos Urbanos de Carga",
+        "description": "Proteção armada e monitorada para transportes de mercadorias em áreas urbanas, evitando roubos e atrasos. Veículos de apoio com equipe tática, rotas otimizadas e protocolos antissequestro de carga. Reduz riscos de perdas com escolta dedicada, aumenta eficiência em entregas pontuais e gera satisfação para empresas logísticas que precisam de segurança em cidades caóticas.",
         "benefits": [
-          "Gestão integrada",
-          "Equipe multifuncional",
-          "Redução de custos",
-          "Qualidade garantida"
+          "Planejamento estratégico: Análise de rotas, identificação de riscos e definição de trajetos seguros",
+          "Equipe tática: Profissionais armados e treinados em logística de segurança e resposta rápida a incidentes",
+          "Entrega garantida: Monitoramento em tempo real até destino final, com zero tolerância para desvios ou perdas"
+        ]
+      },
+      "armored": {
+        "title": "Operações com Carros Blindados – VIPs",
+        "description": "Transporte seguro para autoridades, executivos e VIPs usando frota própria de veículos blindados, incluindo escoltas e traslados. Proporciona segurança elite em cenários de alto risco, garantindo eficiência com discrição total (sem chamar atenção), e maximiza a satisfação com conforto premium e privacidade absoluta. Rastreamento via satélite, planejamento de rotas alternativas e coordenação com forças de segurança se preciso. Perfeito para eventos, viagens ou dia a dia de alto perfil.",
+        "benefits": [
+          "Frota premium: Veículos blindados de última geração, nível III-A ou superior, com manutenção rigorosa e tecnologia antissequestro",
+          "Motoristas especializados: Condutores treinados em direção defensiva, evasiva e protocolos de segurança em situações críticas",
+          "Rastreamento: Monitoramento GPS 24 horas com central de controle e resposta imediata a qualquer anomalia detectada"
         ]
       }
     },
