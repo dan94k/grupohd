@@ -1,0 +1,180 @@
+.services-page {
+  padding-top: 80px;
+}
+
+/* Services List Section */
+.services-list-section {
+  padding: 4rem 0;
+}
+
+.service-detail {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3rem;
+  align-items: start;
+  padding: 4rem 0;
+  border-bottom: 2px solid var(--color-gray-lighter);
+}
+
+.service-detail:last-child {
+  border-bottom: none;
+}
+
+.service-detail.even {
+  background-color: transparent;
+}
+
+.service-detail.odd {
+  background-color: var(--color-gray-lighter);
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 8px;
+}
+
+.service-detail-icon {
+  font-size: 5rem;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  background-color: var(--color-white);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  flex-shrink: 0;
+}
+
+.service-detail-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-dark);
+}
+
+.service-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--color-gray);
+  margin-bottom: 2rem;
+}
+
+.service-benefits h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--color-dark);
+}
+
+.service-benefits ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.service-benefits li {
+  display: flex;
+  align-items: start;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+}
+
+.service-benefits li svg {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+}
+
+.service-benefits li span {
+  color: var(--color-gray);
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.services-cta-section {
+  background: linear-gradient(135deg, var(--color-primary) 0%, #2a9599 100%);
+  padding: 5rem 0;
+}
+
+.services-cta-content {
+  text-align: center;
+  color: var(--color-white);
+}
+
+.services-cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.services-cta-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+.services-cta-content .btn-primary {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border-color: var(--color-white);
+}
+
+.services-cta-content .btn-primary:hover {
+  background-color: transparent;
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .services-page {
+    padding-top: 70px;
+  }
+
+  .service-detail {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 3rem 0;
+  }
+
+  .service-detail.odd {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .service-detail-icon {
+    font-size: 4rem;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .service-detail-content {
+    text-align: center;
+  }
+
+  .service-detail-content h2 {
+    font-size: 1.75rem;
+  }
+
+  .service-description {
+    font-size: 1rem;
+  }
+
+  .service-benefits ul {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .services-cta-content h2 {
+    font-size: 2rem;
+  }
+
+  .services-cta-content p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Sobre Nós",
+    "services": "Serviços",
+    "safetySchool": "Safety School",
+    "contact": "Contato"
+  },
+  "home": {
+    "hero": {
+      "title": "Segurança especializada para ambientes que exigem confiança absoluta",
+      "subtitle": "Soluções completas em segurança privada, com método, disciplina e profissionais altamente capacitados.",
+      "ctaPrimary": "Fale com um especialista",
+      "ctaSecondary": "Conheça o Safety School"
+    },
+    "about": {
+      "title": "Quem Somos",
+      "description": "O Grupo HD oferece serviços de segurança privada com profissionais experientes, oriundos da segurança pública e privada. Nossa equipe é formada por profissionais com formação no Exército Brasileiro e Polícia Militar, garantindo excelência operacional e confiança absoluta.",
+      "cta": "Conheça nossa história"
+    },
+    "safetySchool": {
+      "tag": "Projeto Destaque",
+      "title": "Safety School",
+      "subtitle": "Segurança Escolar Completa",
+      "description": "Programa completo de segurança escolar com controle de acesso, protocolos de emergência, treinamento de equipe e prevenção. Uma solução metodológica para garantir ambiente escolar seguro e preparado.",
+      "cta": "Conhecer o projeto"
+    },
+    "services": {
+      "title": "Nossos Serviços",
+      "subtitle": "Soluções completas em segurança especializada",
+      "viewAll": "Ver todos os serviços",
+      "items": {
+        "accessControl": {
+          "title": "Controle de Acesso",
+          "description": "Gestão inteligente de entrada e saída com protocolos rigorosos"
+        },
+        "reception": {
+          "title": "Recepção",
+          "description": "Atendimento profissional e seguro no primeiro contato"
+        },
+        "vip": {
+          "title": "Segurança VIP",
+          "description": "Proteção especializada para autoridades e executivos"
+        },
+        "escort": {
+          "title": "Escolta de Cargas",
+          "description": "Segurança em transporte de valores e mercadorias"
+        },
+        "armored": {
+          "title": "Carros Blindados",
+          "description": "Operações com frota blindada própria"
+        },
+        "facilities": {
+          "title": "Facilities",
+          "description": "Gestão completa de instalações e infraestrutura"
+        }
+      }
+    },
+    "differentials": {
+      "title": "Nossos Diferenciais",
+      "items": {
+        "trained": {
+          "title": "Profissionais Treinados",
+          "description": "Equipe com formação militar e policial"
+        },
+        "experience": {
+          "title": "Experiência Comprovada",
+          "description": "Mais de 14 anos em segurança pública e privada"
+        },
+        "protocols": {
+          "title": "Protocolos e Método",
+          "description": "Procedimentos padronizados para cada situação"
+        },
+        "personalized": {
+          "title": "Atendimento Personalizado",
+          "description": "Soluções customizadas para cada cliente"
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto para uma segurança especializada?",
+      "subtitle": "Entre em contato e conheça nossas soluções",
+      "button": "Falar no WhatsApp"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Sobre o Grupo HD",
+      "subtitle": "Segurança Especializada com Disciplina e Excelência"
+    },
+    "intro": {
+      "title": "Quem Somos",
+      "text": "O Grupo HD oferece serviços de segurança privada com profissionais experientes, oriundos da segurança pública e privada. Nossa equipe é formada por especialistas com sólida formação no Exército Brasileiro e Polícia Militar do Rio de Janeiro, garantindo excelência operacional e confiança absoluta em cada operação."
+    },
+    "mission": {
+      "title": "Missão",
+      "text": "Garantir segurança e tranquilidade por meio de soluções personalizadas, com excelência operacional e profissionais altamente capacitados."
+    },
+    "vision": {
+      "title": "Visão",
+      "text": "Ser referência nacional em serviços de segurança privada e facilities, reconhecidos pela qualidade, ética e inovação em nossas operações."
+    },
+    "values": {
+      "title": "Valores",
+      "items": [
+        "Disciplina",
+        "Respeito à hierarquia",
+        "Ética e integridade",
+        "Comprometimento",
+        "Excelência operacional",
+        "Honra e lealdade"
+      ]
+    },
+    "history": {
+      "title": "Nossa História",
+      "timeline": [
+        {
+          "year": "2006",
+          "title": "Início no Exército Brasileiro",
+          "description": "Fundação da base de conhecimento e disciplina militar"
+        },
+        {
+          "year": "2010",
+          "title": "Polícia Militar do RJ",
+          "description": "Mais de 14 anos de experiência em segurança pública"
+        },
+        {
+          "year": "2018",
+          "title": "Fundação do Grupo HD",
+          "description": "Início das operações em segurança privada especializada"
+        },
+        {
+          "year": "2024",
+          "title": "Curso de Proteção de Autoridades",
+          "description": "Certificação em segurança e proteção de autoridades e VIPs"
+        },
+        {
+          "year": "2025",
+          "title": "Força Nacional",
+          "description": "Ingresso na Força Nacional de Segurança Pública"
+        }
+      ]
+    },
+    "ceo": {
+      "title": "Liderança",
+      "name": "David Anacleto",
+      "role": "CEO e Fundador",
+      "description": "Com mais de 18 anos de experiência em segurança pública e privada, David Anacleto é especialista em proteção de autoridades e operações de segurança complexas. Sua trajetória pelo Exército Brasileiro, Polícia Militar e Força Nacional consolida o Grupo HD como referência em segurança especializada."
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Nossos Serviços",
+      "subtitle": "Soluções completas em segurança privada para cada necessidade"
+    },
+    "list": {
+      "accessControl": {
+        "title": "Controle de Acesso",
+        "description": "Gestão inteligente e rigorosa de entrada e saída de pessoas e veículos, com registro, identificação e protocolos de segurança.",
+        "benefits": [
+          "Identificação e registro completo",
+          "Protocolos de segurança padronizados",
+          "Controle em tempo real",
+          "Relatórios detalhados"
+        ]
+      },
+      "reception": {
+        "title": "Recepção",
+        "description": "Atendimento profissional e seguro, garantindo a melhor primeira impressão com procedimentos de segurança integrados.",
+        "benefits": [
+          "Profissionais treinados",
+          "Atendimento cordial e seguro",
+          "Gestão de visitantes",
+          "Integração com controle de acesso"
+        ]
+      },
+      "escort": {
+        "title": "Escolta de Veículos Urbanos de Carga",
+        "description": "Segurança especializada no transporte de valores, cargas sensíveis e mercadorias de alto valor agregado.",
+        "benefits": [
+          "Planejamento de rotas",
+          "Equipe armada e treinada",
+          "Veículos de apoio",
+          "Monitoramento em tempo real"
+        ]
+      },
+      "vip": {
+        "title": "Segurança de Autoridades e VIPs",
+        "description": "Proteção pessoal especializada para executivos, autoridades e personalidades que exigem máxima discrição e segurança.",
+        "benefits": [
+          "Agentes certificados",
+          "Planejamento de deslocamentos",
+          "Análise de riscos",
+          "Discrição absoluta"
+        ]
+      },
+      "armored": {
+        "title": "Operações com Carros Blindados",
+        "description": "Frota própria de veículos blindados para transporte seguro de valores, documentos e pessoas.",
+        "benefits": [
+          "Frota própria e moderna",
+          "Manutenção regular",
+          "Motoristas especializados",
+          "Cobertura nacional"
+        ]
+      },
+      "safetyTour": {
+        "title": "Safety Tour",
+        "description": "Segurança especializada para eventos, turnês e deslocamentos que exigem planejamento e coordenação complexa.",
+        "benefits": [
+          "Planejamento completo",
+          "Equipe multidisciplinar",
+          "Coordenação logística",
+          "Cobertura em múltiplas cidades"
+        ]
+      },
+      "facilities": {
+        "title": "Facilities",
+        "description": "Gestão completa de instalações, incluindo manutenção, limpeza, portaria e serviços auxiliares integrados.",
+        "benefits": [
+          "Gestão integrada",
+          "Equipe multifuncional",
+          "Redução de custos",
+          "Qualidade garantida"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Solicite um orçamento",
+      "description": "Entre em contato e conheça a solução ideal para sua necessidade",
+      "button": "Falar com especialista"
+    }
+  },
+  "safetySchool": {
+    "hero": {
+      "title": "Projeto Safety School",
+      "subtitle": "Segurança Escolar com Método e Protocolo"
+    },
+    "intro": {
+      "title": "O que é o Safety School?",
+      "description": "O Projeto Safety School é uma solução completa e metodológica em segurança escolar, que vai além da simples presença de vigilantes. É um sistema integrado que combina controle de acesso inteligente, protocolos de emergência, treinamento contínuo e cultura de prevenção para garantir um ambiente escolar verdadeiramente seguro."
+    },
+    "context": {
+      "title": "Por que sua escola precisa do Safety School?",
+      "subtitle": "O contexto de insegurança nas escolas brasileiras",
+      "items": [
+        {
+          "title": "Violência Física e Psicológica",
+          "description": "Agressões, intimidações e conflitos dentro do ambiente escolar"
+        },
+        {
+          "title": "Bullying e Cyberbullying",
+          "description": "Casos crescentes de assédio e violência entre alunos"
+        },
+        {
+          "title": "Entrada de Armas",
+          "description": "Risco real de objetos perigosos dentro das escolas"
+        },
+        {
+          "title": "Casos Reais",
+          "description": "Tragédias como Realengo (RJ) e outros ataques a escolas"
+        }
+      ]
+    },
+    "objective": {
+      "title": "Objetivo do Projeto",
+      "description": "Garantir um ambiente escolar seguro, organizado e preparado para emergências, com protocolos claros, equipe treinada e cultura de prevenção consolidada."
+    },
+    "pillars": {
+      "title": "Os 3 Pilares do Safety School",
+      "items": [
+        {
+          "number": "01",
+          "title": "Controle de Acesso Inteligente",
+          "description": "Gestão rigorosa de entrada e saída com identificação, registro e protocolos de segurança. Inspeção de mochilas, controle de visitantes e monitoramento de perímetro."
+        },
+        {
+          "number": "02",
+          "title": "Monitoramento e Resposta",
+          "description": "Inspetores posicionados estrategicamente, protocolos de emergência definidos, comunicação integrada e resposta rápida a qualquer ocorrência."
+        },
+        {
+          "number": "03",
+          "title": "Cultura de Prevenção",
+          "description": "Treinamento contínuo da equipe escolar, simulados periódicos, palestras de conscientização e construção de ambiente de segurança participativa."
+        }
+      ]
+    },
+    "method": {
+      "title": "Segurança Escolar com Método",
+      "subtitle": "Nossa abordagem sistemática e profissional",
+      "steps": [
+        {
+          "title": "Diagnóstico e Mapa de Risco",
+          "description": "Análise completa do ambiente escolar, identificação de vulnerabilidades e criação de mapa de riscos personalizado."
+        },
+        {
+          "title": "Protocolos por Cenário",
+          "description": "Desenvolvimento de procedimentos específicos para cada tipo de emergência: incêndio, invasão, acidente, entre outros."
+        },
+        {
+          "title": "Treinamento da Equipe",
+          "description": "Capacitação de inspetores, funcionários e professores em protocolos de segurança e primeiros socorros."
+        },
+        {
+          "title": "Simulados Periódicos",
+          "description": "Exercícios práticos regulares para testar protocolos e preparar toda a comunidade escolar."
+        },
+        {
+          "title": "Relatórios e Registros",
+          "description": "Documentação detalhada de ocorrências, análise de dados e melhoria contínua dos processos."
+        }
+      ]
+    },
+    "differentials": {
+      "title": "Diferenciais do Safety School",
+      "items": [
+        {
+          "title": "Inspetores que SÃO o Protocolo",
+          "description": "Profissionais treinados para seguir e aplicar procedimentos rigorosamente, não apenas vigiar."
+        },
+        {
+          "title": "Treinamento em Emergências",
+          "description": "Capacitação em primeiros socorros, combate a incêndio e gestão de crises."
+        },
+        {
+          "title": "Experiência Comprovada",
+          "description": "Equipe com formação militar e policial aplicada ao ambiente escolar."
+        },
+        {
+          "title": "Abordagem Humanizada",
+          "description": "Segurança que respeita o ambiente educacional e contribui para clima escolar positivo."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Solicite uma avaliação para sua escola",
+      "description": "Conheça o Safety School e descubra como podemos tornar sua escola mais segura",
+      "button": "Falar com especialista"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Entre em Contato",
+      "subtitle": "Estamos prontos para atender sua necessidade"
+    },
+    "info": {
+      "title": "Fale Conosco",
+      "phone": "Telefone",
+      "email": "E-mail",
+      "whatsapp": "WhatsApp",
+      "social": "Redes Sociais"
+    },
+    "form": {
+      "title": "Envie sua mensagem",
+      "name": "Nome completo",
+      "company": "Empresa / Escola",
+      "city": "Cidade",
+      "service": "Serviço de interesse",
+      "message": "Mensagem",
+      "send": "Enviar mensagem",
+      "selectService": "Selecione um serviço",
+      "services": {
+        "safetySchool": "Safety School",
+        "accessControl": "Controle de Acesso",
+        "reception": "Recepção",
+        "vip": "Segurança VIP",
+        "escort": "Escolta de Cargas",
+        "armored": "Carros Blindados",
+        "facilities": "Facilities",
+        "other": "Outro"
+      },
+      "success": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
+      "error": "Erro ao enviar mensagem. Tente novamente."
+    }
+  },
+  "footer": {
+    "tagline": "Segurança Especializada",
+    "company": "Empresa",
+    "services": "Serviços",
+    "contact": "Contato",
+    "links": {
+      "about": "Sobre Nós",
+      "history": "Nossa História",
+      "values": "Missão e Valores"
+    },
+    "rights": "Todos os direitos reservados.",
+    "developed": "Desenvolvido com profissionalismo e segurança"
+  },
+  "common": {
+    "learnMore": "Saiba mais",
+    "contact": "Entrar em contato",
+    "back": "Voltar",
+    "close": "Fechar",
+    "menu": "Menu"
+  }
+}
