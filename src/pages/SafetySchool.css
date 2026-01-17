@@ -60,18 +60,75 @@
 }
 
 .intro-box {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
 }
 
-.intro-box h2 {
+.intro-image {
+  flex: 0 0 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.intro-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.intro-image:hover img {
+  transform: scale(1.05);
+}
+
+.intro-text {
+  flex: 1;
+  text-align: left;
+}
+
+.intro-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-dark);
+  line-height: 1.2;
+}
+
+.intro-text p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--color-gray);
+}
+
+/* About Section */
+.safety-about {
+  background-color: var(--color-gray-lighter);
+  padding: 6rem 0;
+}
+
+.about-content {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-icon {
+  font-size: 4rem;
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+}
+
+.about-content h2 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   color: var(--color-dark);
 }
 
-.intro-box p {
+.about-content p {
   font-size: 1.2rem;
   line-height: 1.8;
   color: var(--color-gray);
@@ -79,7 +136,7 @@
 
 /* Context Section */
 .context-section {
-  background-color: var(--color-gray-lighter);
+  background-color: var(--color-white);
   padding: 6rem 0;
 }
 
@@ -90,7 +147,7 @@
 
 .context-header svg {
   font-size: 3.5rem;
-  color: #ff6b6b;
+  color: #36b9bc;
   margin-bottom: 1rem;
 }
 
@@ -116,7 +173,7 @@
   padding: 2.5rem;
   border-radius: 8px;
   box-shadow: var(--shadow);
-  border-left: 4px solid #ff6b6b;
+  border-left: 4px solid #36b9bc;
   transition: var(--transition);
 }
 
@@ -127,7 +184,7 @@
 
 .context-icon {
   font-size: 2.5rem;
-  color: #ff6b6b;
+  color: #36b9bc;
   margin-bottom: 1rem;
 }
 
@@ -142,34 +199,55 @@
   line-height: 1.6;
 }
 
-/* Objective Section */
-.objective-section {
+/* Mission Section */
+.mission-section {
   background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-black) 100%);
   color: var(--color-white);
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 
-.objective-content {
-  text-align: center;
-  max-width: 900px;
+.mission-content {
+  max-width: 1100px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
 }
 
-.objective-icon {
-  font-size: 4rem;
-  color: var(--color-primary);
-  margin-bottom: 1.5rem;
+.mission-text {
+  flex: 1;
+  text-align: left;
 }
 
-.objective-content h2 {
+.mission-text h2 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+  line-height: 1.2;
 }
 
-.objective-content p {
-  font-size: 1.2rem;
+.mission-text p {
+  font-size: 1.15rem;
   line-height: 1.8;
   color: var(--color-gray-light);
+}
+
+.mission-image {
+  flex: 0 0 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.mission-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.mission-image:hover img {
+  transform: scale(1.05);
 }
 
 /* Pillars Section */
@@ -430,11 +508,35 @@
     font-size: 1.2rem;
   }
 
-  .intro-box h2 {
+  .intro-box {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .intro-image {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+
+  .intro-text h2 {
     font-size: 2rem;
   }
 
-  .intro-box p {
+  .intro-text p {
+    font-size: 1.05rem;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
     font-size: 1.05rem;
   }
 
@@ -444,6 +546,30 @@
 
   .context-grid {
     grid-template-columns: 1fr;
+  }
+
+  .mission-content {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .mission-image {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .mission-text {
+    text-align: center;
+  }
+
+  .mission-text h2 {
+    font-size: 2rem;
+  }
+
+  .mission-text p {
+    font-size: 1.05rem;
   }
 
   .pillars-grid {

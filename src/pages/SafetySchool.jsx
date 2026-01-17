@@ -36,8 +36,24 @@ export default function SafetySchool() {
       <section className="section safety-intro">
         <div className="container">
           <div className="intro-box">
-            <h2>{t('safetySchool.intro.title')}</h2>
-            <p>{t('safetySchool.intro.description')}</p>
+            <div className="intro-image">
+              <img src="/images/safety-school-classroom.webp" alt="Sala de aula Safety School" />
+            </div>
+            <div className="intro-text">
+              <h2>{t('safetySchool.intro.title')}</h2>
+              <p>{t('safetySchool.intro.description')}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="section safety-about">
+        <div className="container">
+          <div className="about-content">
+            <FaShieldAlt className="about-icon" />
+            <h2>{t('safetySchool.about.title')}</h2>
+            <p>{t('safetySchool.about.description')}</p>
           </div>
         </div>
       </section>
@@ -66,13 +82,17 @@ export default function SafetySchool() {
         </div>
       </section>
 
-      {/* Objective Section */}
-      <section className="section objective-section">
+      {/* Mission Section */}
+      <section className="section mission-section">
         <div className="container">
-          <div className="objective-content">
-            <FaCheckCircle className="objective-icon" />
-            <h2>{t('safetySchool.objective.title')}</h2>
-            <p>{t('safetySchool.objective.description')}</p>
+          <div className="mission-content">
+            <div className="mission-image">
+              <img src="/images/safety-school.webp" alt="Safety School" />
+            </div>
+            <div className="mission-text">
+              <h2>{t('safetySchool.mission.title')}</h2>
+              <p>{t('safetySchool.mission.description')}</p>
+            </div>
           </div>
         </div>
       </section>
@@ -159,3 +179,4 @@ export default function SafetySchool() {
     </div>
   )
 }
+                                                    

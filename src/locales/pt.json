@@ -205,37 +205,41 @@
   "safetySchool": {
     "hero": {
       "title": "Projeto Safety School",
-      "subtitle": "Segurança Escolar com Método e Protocolo"
+      "subtitle": "Segurança escolar com método, protocolo e preparo real."
     },
     "intro": {
-      "title": "O que é o Safety School?",
-      "description": "O Projeto Safety School é uma solução completa e metodológica em segurança escolar, que vai além da simples presença de vigilantes. É um sistema integrado que combina controle de acesso inteligente, protocolos de emergência, treinamento contínuo e cultura de prevenção para garantir um ambiente escolar verdadeiramente seguro."
+      "title": "O que é o Safety School",
+      "description": "O Safety School é um programa completo de segurança escolar desenvolvido para organizar o controle de acesso, prevenir ocorrências e preparar equipes para agir com rapidez, clareza e protocolo em situações de risco. Nosso objetivo é garantir que alunos, colaboradores e famílias tenham um ambiente escolar tranquilo, protegido e estruturado."
+    },
+    "about": {
+      "title": "Segurança Escolar com Método",
+      "description": "O Safety School vai além da presença física. É um modelo estruturado de prevenção e resposta, baseado em diagnóstico, protocolos claros e treinamento contínuo. Atuamos desde a prevenção até a resposta a incidentes, criando uma cultura de segurança dentro da instituição."
     },
     "context": {
-      "title": "Por que sua escola precisa do Safety School?",
-      "subtitle": "O contexto de insegurança nas escolas brasileiras",
+      "title": "O Desafio da Segurança Escolar",
+      "subtitle": "Ambientes escolares estão sujeitos a diversos riscos",
       "items": [
         {
-          "title": "Violência Física e Psicológica",
-          "description": "Agressões, intimidações e conflitos dentro do ambiente escolar"
+          "title": "Violência e Negligência",
+          "description": "Violência física, psicológica, sexual ou institucional, negligência e abandono que comprometem o bem-estar dos alunos."
         },
         {
           "title": "Bullying e Cyberbullying",
-          "description": "Casos crescentes de assédio e violência entre alunos"
+          "description": "Casos crescentes de assédio, exploração sexual, tráfico de pessoas e outras formas de violência entre alunos."
         },
         {
-          "title": "Entrada de Armas",
-          "description": "Risco real de objetos perigosos dentro das escolas"
+          "title": "Sequestro e Cárcere",
+          "description": "Riscos de sequestro e cárcere privado que exigem protocolos claros de segurança e resposta rápida."
         },
         {
-          "title": "Casos Reais",
-          "description": "Tragédias como Realengo (RJ) e outros ataques a escolas"
+          "title": "Ataques Armados",
+          "description": "Entrada de crianças ou adolescentes armados (armas de fogo, facas, entre outros) e casos reais como o ocorrido em Realengo."
         }
       ]
     },
-    "objective": {
-      "title": "Objetivo do Projeto",
-      "description": "Garantir um ambiente escolar seguro, organizado e preparado para emergências, com protocolos claros, equipe treinada e cultura de prevenção consolidada."
+    "mission": {
+      "title": "Nossa Missão",
+      "description": "Preparar pessoas capazes de compreender e atender nossos clientes com máxima excelência. Assegurar que cidadãos tenham seus direitos preservados em ambientes privados, contando com profissionais prontos para atuar sempre que necessário."
     },
     "pillars": {
       "title": "Os 3 Pilares do Safety School",
@@ -243,71 +247,79 @@
         {
           "number": "01",
           "title": "Controle de Acesso Inteligente",
-          "description": "Gestão rigorosa de entrada e saída com identificação, registro e protocolos de segurança. Inspeção de mochilas, controle de visitantes e monitoramento de perímetro."
+          "description": "Entrada e saída organizadas • Identificação por crachás • Controle de visitantes • Gestão de entregas"
         },
         {
           "number": "02",
-          "title": "Monitoramento e Resposta",
-          "description": "Inspetores posicionados estrategicamente, protocolos de emergência definidos, comunicação integrada e resposta rápida a qualquer ocorrência."
+          "title": "Monitoramento & Resposta",
+          "description": "Central de monitoramento • Rondas preventivas • Acionamento rápido • Registro de ocorrências"
         },
         {
           "number": "03",
           "title": "Cultura de Prevenção",
-          "description": "Treinamento contínuo da equipe escolar, simulados periódicos, palestras de conscientização e construção de ambiente de segurança participativa."
+          "description": "Protocolos claros • Treinamento contínuo • Simulações periódicas • Preparação da equipe escolar"
         }
       ]
     },
     "method": {
-      "title": "Segurança Escolar com Método",
-      "subtitle": "Nossa abordagem sistemática e profissional",
+      "title": "Como Funciona na Prática",
+      "subtitle": "Segurança Escolar com Método (Safety School)",
       "steps": [
         {
-          "title": "Diagnóstico e Mapa de Risco",
-          "description": "Análise completa do ambiente escolar, identificação de vulnerabilidades e criação de mapa de riscos personalizado."
+          "title": "Diagnóstico completo e mapa de risco",
+          "description": "Análise detalhada da escola para identificar vulnerabilidades e criar estratégias personalizadas de segurança."
         },
         {
-          "title": "Protocolos por Cenário",
-          "description": "Desenvolvimento de procedimentos específicos para cada tipo de emergência: incêndio, invasão, acidente, entre outros."
+          "title": "Protocolos definidos por cenário",
+          "description": "Procedimentos específicos para entrada, visitantes, incidentes e emergências adaptados à realidade da instituição."
         },
         {
-          "title": "Treinamento da Equipe",
-          "description": "Capacitação de inspetores, funcionários e professores em protocolos de segurança e primeiros socorros."
+          "title": "Treinamento da equipe",
+          "description": "Capacitação contínua de portaria e coordenação em protocolos de segurança, primeiros socorros e gestão de crises."
         },
         {
-          "title": "Simulados Periódicos",
-          "description": "Exercícios práticos regulares para testar protocolos e preparar toda a comunidade escolar."
+          "title": "Simulados periódicos",
+          "description": "Exercícios práticos regulares para testar protocolos e preparar toda a comunidade escolar para situações reais."
         },
         {
-          "title": "Relatórios e Registros",
-          "description": "Documentação detalhada de ocorrências, análise de dados e melhoria contínua dos processos."
+          "title": "Relatórios e registro de ocorrências",
+          "description": "Documentação detalhada de todas as ocorrências com análise de dados para melhoria contínua. Tudo adaptado à realidade de cada instituição."
         }
       ]
     },
     "differentials": {
-      "title": "Diferenciais do Safety School",
+      "title": "Diferenciais",
       "items": [
         {
-          "title": "Inspetores que SÃO o Protocolo",
-          "description": "Profissionais treinados para seguir e aplicar procedimentos rigorosamente, não apenas vigiar."
+          "title": "Inspetores que SÃO Protocolo",
+          "description": "Nossos inspetores não são apenas presença — são protocolo. Profissionais treinados para seguir procedimentos com excelência."
         },
         {
-          "title": "Treinamento em Emergências",
-          "description": "Capacitação em primeiros socorros, combate a incêndio e gestão de crises."
+          "title": "Controle de Acesso",
+          "description": "Treinamento especializado em gestão de entrada e saída, identificação e autorização com protocolos rigorosos."
         },
         {
-          "title": "Experiência Comprovada",
-          "description": "Equipe com formação militar e policial aplicada ao ambiente escolar."
+          "title": "Gestão de Emergências",
+          "description": "Capacitação em resposta rápida a situações críticas, coordenação de evacuação e acionamento de protocolos de emergência."
         },
         {
-          "title": "Abordagem Humanizada",
-          "description": "Segurança que respeita o ambiente educacional e contribui para clima escolar positivo."
+          "title": "Primeiros Socorros",
+          "description": "Equipe treinada para atendimento imediato em acidentes e situações que exigem intervenção rápida até chegada de socorro."
+        },
+        {
+          "title": "Prevenção e Combate a Incêndio",
+          "description": "Treinamento completo em uso de equipamentos, rotas de fuga e procedimentos de evacuação em casos de incêndio."
+        },
+        {
+          "title": "Processo e Constância",
+          "description": "Segurança real se constrói com processo, preparo e constância. Metodologia aplicada diariamente para resultados efetivos."
         }
       ]
     },
     "cta": {
-      "title": "Solicite uma avaliação para sua escola",
-      "description": "Conheça o Safety School e descubra como podemos tornar sua escola mais segura",
-      "button": "Falar com especialista"
+      "title": "Transforme a segurança da sua escola",
+      "description": "Entre em contato e conheça como o Safety School pode proteger sua instituição com método e profissionalismo.",
+      "button": "Solicitar avaliação"
     }
   },
   "contact": {
