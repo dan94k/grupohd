@@ -92,6 +92,9 @@
       "title": "Quem Somos",
       "text": "O Grupo HD oferece serviços de segurança privada com profissionais experientes, oriundos da segurança pública e privada. Nossa equipe é formada por especialistas com sólida formação no Exército Brasileiro e Polícia Militar do Rio de Janeiro, garantindo excelência operacional e confiança absoluta em cada operação."
     },
+    "institutional": {
+      "title": "Institucional"
+    },
     "mission": {
       "title": "Missão",
       "text": "Garantir segurança e tranquilidade por meio de soluções personalizadas, com excelência operacional e profissionais altamente capacitados."
@@ -117,27 +120,27 @@
         {
           "year": "2006",
           "title": "Início no Exército Brasileiro",
-          "description": "Fundação da base de conhecimento e disciplina militar"
+          "description": "O CEO David Anacleto iniciou sua carreira no Exército Brasileiro, consolidando valores como disciplina, respeito à hierarquia e princípios éticos que se tornaram a base de toda sua atuação profissional."
         },
         {
           "year": "2010",
-          "title": "Polícia Militar do RJ",
-          "description": "Mais de 14 anos de experiência em segurança pública"
+          "title": "Polícia Militar do Rio de Janeiro",
+          "description": "Ingresso na Polícia Militar do RJ, onde atua há mais de 14 anos, acumulando vasta experiência em operações de segurança e realizando diversos cursos de especialização dentro da própria corporação."
         },
         {
           "year": "2018",
           "title": "Fundação do Grupo HD",
-          "description": "Início das operações em segurança privada especializada"
+          "description": "Toda a bagagem acumulada levou à fundação do Grupo HD, com o propósito de oferecer serviços de segurança especializados, sustentados pela disciplina e pela excelência operacional."
         },
         {
           "year": "2024",
-          "title": "Curso de Proteção de Autoridades",
-          "description": "Certificação em segurança e proteção de autoridades e VIPs"
+          "title": "6º Curso de Segurança e Proteção de Autoridades",
+          "description": "Conclusão do 6º Curso de Segurança e Proteção de Autoridades da Força Nacional, consolidando-se como referência em proteção executiva."
         },
         {
           "year": "2025",
-          "title": "Força Nacional",
-          "description": "Ingresso na Força Nacional de Segurança Pública"
+          "title": "Força Nacional de Segurança Pública",
+          "description": "Ingresso na Força Nacional de Segurança Pública, ampliando ainda mais a experiência prática em operações de alto nível e fortalecendo a credibilidade do Grupo HD."
         }
       ]
     },

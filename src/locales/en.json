@@ -92,6 +92,9 @@
       "title": "Who We Are",
       "text": "HD Group offers private security services with experienced professionals from public and private security. Our team consists of specialists with solid training in the Brazilian Army and Rio de Janeiro Military Police, ensuring operational excellence and absolute trust in every operation."
     },
+    "institutional": {
+      "title": "Institutional"
+    },
     "mission": {
       "title": "Mission",
       "text": "Guarantee security and tranquility through personalized solutions, with operational excellence and highly trained professionals."
@@ -117,27 +120,27 @@
         {
           "year": "2006",
           "title": "Start in Brazilian Army",
-          "description": "Foundation of knowledge base and military discipline"
+          "description": "CEO David Anacleto began his career in the Brazilian Army, consolidating values such as discipline, respect for hierarchy and ethical principles that became the foundation of his entire professional performance."
         },
         {
           "year": "2010",
           "title": "Rio de Janeiro Military Police",
-          "description": "Over 14 years of experience in public security"
+          "description": "Joined the Rio de Janeiro Military Police, where he has been working for over 14 years, accumulating vast experience in security operations and completing various specialization courses within the corporation itself."
         },
         {
           "year": "2018",
           "title": "HD Group Foundation",
-          "description": "Beginning of operations in specialized private security"
+          "description": "All the accumulated experience led to the founding of HD Group, with the purpose of offering specialized security services, supported by discipline and operational excellence."
         },
         {
           "year": "2024",
-          "title": "Authority Protection Course",
-          "description": "Certification in security and protection of authorities and VIPs"
+          "title": "6th Course in Security and Protection of Authorities",
+          "description": "Completion of the 6th Course in Security and Protection of Authorities from the National Force, establishing himself as a reference in executive protection."
         },
         {
           "year": "2025",
-          "title": "National Force",
-          "description": "Joining the National Public Security Force"
+          "title": "National Public Security Force",
+          "description": "Joining the National Public Security Force, further expanding practical experience in high-level operations and strengthening HD Group's credibility."
         }
       ]
     },
