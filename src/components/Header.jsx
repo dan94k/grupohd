@@ -2,6 +2,9 @@ import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { FaBars, FaTimes, FaGlobe } from 'react-icons/fa'
+import { BR } from 'country-flag-icons/react/3x2'
+import { US } from 'country-flag-icons/react/3x2'
+import { ES } from 'country-flag-icons/react/3x2'
 import './Header.css'
 
 export default function Header() {
@@ -33,6 +36,16 @@ export default function Header() {
     setShowLangMenu(false)
   }
 
+  const getLanguageFlag = (lang) => {
+    const flagStyle = { width: '24px', height: '16px' }
+    const flags = {
+      pt: <BR style={flagStyle} />,
+      en: <US style={flagStyle} />,
+      es: <ES style={flagStyle} />
+    }
+    return flags[lang] || <BR style={flagStyle} />
+  }
+
   const isActive = (path) => {
     return location.pathname === path ? 'active' : ''
   }
@@ -52,14 +65,14 @@ export default function Header() {
             <Link to="/" className={`nav-link ${isActive('/')}`} onClick={closeMenu}>
               {t('nav.home')}
             </Link>
-            <Link to="/sobre" className={`nav-link ${isActive('/sobre')}`} onClick={closeMenu}>
-              {t('nav.about')}
+            <Link to="/safety-school" className={`nav-link ${isActive('/safety-school')} highlight`} onClick={closeMenu}>
+              {t('nav.safetySchool')}
             </Link>
             <Link to="/servicos" className={`nav-link ${isActive('/servicos')}`} onClick={closeMenu}>
               {t('nav.services')}
             </Link>
-            <Link to="/safety-school" className={`nav-link ${isActive('/safety-school')} highlight`} onClick={closeMenu}>
-              {t('nav.safetySchool')}
+            <Link to="/sobre" className={`nav-link ${isActive('/sobre')}`} onClick={closeMenu}>
+              {t('nav.about')}
             </Link>
             <Link to="/contato" className={`nav-link ${isActive('/contato')}`} onClick={closeMenu}>
               {t('nav.contact')}
@@ -67,18 +80,18 @@ export default function Header() {
 
             <div className="language-selector mobile">
               <button onClick={() => setShowLangMenu(!showLangMenu)} className="lang-button">
-                <FaGlobe /> {i18n.language.toUpperCase()}
+                {getLanguageFlag(i18n.language)}
               </button>
               {showLangMenu && (
                 <div className="lang-menu">
                   <button onClick={() => changeLanguage('pt')} className={i18n.language === 'pt' ? 'active' : ''}>
-                    🇧🇷 PT
+                    <BR style={{ width: '28px', height: '20px' }} />
                   </button>
                   <button onClick={() => changeLanguage('en')} className={i18n.language === 'en' ? 'active' : ''}>
-                    🇺🇸 EN
+                    <US style={{ width: '28px', height: '20px' }} />
                   </button>
                   <button onClick={() => changeLanguage('es')} className={i18n.language === 'es' ? 'active' : ''}>
-                    🇪🇸 ES
+                    <ES style={{ width: '28px', height: '20px' }} />
                   </button>
                 </div>
               )}
@@ -88,18 +101,18 @@ export default function Header() {
           <div className="header-actions">
             <div className="language-selector desktop">
               <button onClick={() => setShowLangMenu(!showLangMenu)} className="lang-button">
-                <FaGlobe /> {i18n.language.toUpperCase()}
+                {getLanguageFlag(i18n.language)}
               </button>
               {showLangMenu && (
                 <div className="lang-menu">
                   <button onClick={() => changeLanguage('pt')} className={i18n.language === 'pt' ? 'active' : ''}>
-                    🇧🇷 PT
+                    <BR style={{ width: '32px', height: '24px' }} />
                   </button>
                   <button onClick={() => changeLanguage('en')} className={i18n.language === 'en' ? 'active' : ''}>
-                    🇺🇸 EN
+                    <US style={{ width: '32px', height: '24px' }} />
                   </button>
                   <button onClick={() => changeLanguage('es')} className={i18n.language === 'es' ? 'active' : ''}>
-                    🇪🇸 ES
+                    <ES style={{ width: '32px', height: '24px' }} />
                   </button>
                 </div>
               )}
