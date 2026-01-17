@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { FaBullseye, FaEye, FaStar, FaShieldAlt, FaUserTie } from 'react-icons/fa'
+import { FaBullseye, FaEye, FaStar } from 'react-icons/fa'
 import './About.css'
 
 export default function About() {
@@ -19,12 +19,12 @@ export default function About() {
       <section className="section intro-section">
         <div className="container">
           <div className="intro-content">
-            <div className="intro-icon">
-              <FaShieldAlt />
-            </div>
             <div className="intro-text">
               <h2>{t('about.intro.title')}</h2>
               <p>{t('about.intro.text')}</p>
+            </div>
+            <div className="intro-image">
+              <img src="/images/back-shirt.webp" alt="Grupo HD - Segurança Especializada" />
             </div>
           </div>
         </div>
@@ -55,12 +55,9 @@ export default function About() {
         <div className="container">
           <div className="ceo-content">
             <div className="ceo-image">
-              <div className="image-placeholder">
-                <FaUserTie />
-              </div>
+              <img src="/images/david.webp" alt="David Anacleto - CEO Grupo HD" />
             </div>
             <div className="ceo-text">
-              <span className="ceo-label">{t('about.ceo.title')}</span>
               <h2>{t('about.ceo.name')}</h2>
               <h3>{t('about.ceo.role')}</h3>
               <p>{t('about.ceo.description')}</p>
