@@ -166,7 +166,7 @@
 
 /* About Section */
 .about-section {
-  background-color: var(--color-gray-lighter);
+  background-color: var(--color-white);
 }
 
 .section-content {
@@ -194,6 +194,15 @@
   align-items: center;
 }
 
+.about-logo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg);
+}
+
 .image-placeholder {
   width: 100%;
   max-width: 400px;
@@ -210,7 +219,60 @@
 
 /* Safety School Highlight */
 .safety-school-highlight {
-  background: linear-gradient(135deg, var(--color-primary) 0%, #2a9599 100%);
+  background: var(--color-gray-lighter);
+}
+
+.highlight-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.highlight-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.highlight-text {
+  text-align: left;
+}
+
+.highlight-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-dark);
+}
+
+.highlight-text h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  color: var(--color-primary);
+}
+
+.highlight-text p {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: var(--color-gray);
+  margin-bottom: 2rem;
 }
 
 .highlight-card {
@@ -235,7 +297,7 @@
 
 .highlight-card h2 {
   font-size: 3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .highlight-card h3 {
@@ -397,8 +459,40 @@
     gap: 2rem;
   }
 
+  .about-image {
+    order: -1;
+  }
+
   .image-placeholder {
     font-size: 5rem;
+  }
+
+  .highlight-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .highlight-image {
+    max-width: 350px;
+    height: 350px;
+    margin: 0 auto;
+  }
+
+  .highlight-text {
+    text-align: center;
+  }
+
+  .highlight-text h2 {
+    font-size: 2rem;
+  }
+
+  .highlight-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .highlight-text p {
+    font-size: 1.05rem;
   }
 
   .highlight-card {

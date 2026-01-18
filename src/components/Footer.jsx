@@ -17,9 +17,6 @@ export default function Footer() {
                 <span className="logo-tagline">{t('footer.tagline')}</span>
               </div>
             </div>
-            <p className="footer-description">
-              {t('about.intro.text').substring(0, 150)}...
-            </p>
           </div>
 
           <div className="footer-section">
@@ -61,11 +58,6 @@ export default function Footer() {
               </a>
             </div>
           </div>
-        </div>
-
-        <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Grupo HD. {t('footer.rights')}</p>
-          <p>{t('footer.developed')}</p>
         </div>
       </div>
     </footer>

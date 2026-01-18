@@ -75,28 +75,34 @@ export default function About() {
               <div className="mvv-icon">
                 <FaBullseye />
               </div>
-              <h3>{t('about.mission.title')}</h3>
-              <p>{t('about.mission.text')}</p>
+              <div className="mvv-content">
+                <h3>{t('about.mission.title')}</h3>
+                <p>{t('about.mission.text')}</p>
+              </div>
             </div>
 
             <div className="mvv-card">
               <div className="mvv-icon">
                 <FaEye />
               </div>
-              <h3>{t('about.vision.title')}</h3>
-              <p>{t('about.vision.text')}</p>
+              <div className="mvv-content">
+                <h3>{t('about.vision.title')}</h3>
+                <p>{t('about.vision.text')}</p>
+              </div>
             </div>
 
             <div className="mvv-card values-card">
               <div className="mvv-icon">
                 <FaStar />
               </div>
-              <h3>{t('about.values.title')}</h3>
-              <ul className="values-list">
-                {t('about.values.items', { returnObjects: true }).map((value, index) => (
-                  <li key={index}>{value}</li>
-                ))}
-              </ul>
+              <div className="mvv-content">
+                <h3>{t('about.values.title')}</h3>
+                <ul className="values-list">
+                  {t('about.values.items', { returnObjects: true }).map((value, index) => (
+                    <li key={index}>{value}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>

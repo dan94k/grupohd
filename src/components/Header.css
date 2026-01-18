@@ -38,6 +38,12 @@
   opacity: 0.8;
 }
 
+.logo-image {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
 .logo-text {
   display: flex;
   flex-direction: column;
@@ -194,6 +200,10 @@
 @media (max-width: 968px) {
   .header-content {
     height: 70px;
+  }
+
+  .logo-image {
+    height: 40px;
   }
 
   .logo-name {

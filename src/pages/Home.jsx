@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { 
-  FaShieldAlt, 
+  FaShieldAlt,
   FaUserTie, 
   FaTruck, 
   FaCar, 
@@ -66,9 +66,11 @@ export default function Home() {
               </Link>
             </div>
             <div className="about-image">
-              <div className="image-placeholder">
-                <FaShieldAlt />
-              </div>
+              <img 
+                src="/images/logo-wall.webp" 
+                alt="Grupo HD" 
+                className="about-logo"
+              />
             </div>
           </div>
         </div>
@@ -77,14 +79,18 @@ export default function Home() {
       {/* Safety School Highlight */}
       <section className="section safety-school-highlight">
         <div className="container">
-          <div className="highlight-card">
-            <span className="highlight-tag">{t('home.safetySchool.tag')}</span>
-            <h2>{t('home.safetySchool.title')}</h2>
-            <h3>{t('home.safetySchool.subtitle')}</h3>
-            <p>{t('home.safetySchool.description')}</p>
-            <Link to="/safety-school" className="btn btn-primary">
-              {t('home.safetySchool.cta')}
-            </Link>
+          <div className="highlight-content">
+            <div className="highlight-image">
+              <img src="/images/safety-school-home.webp" alt="Safety School - Segurança Escolar" />
+            </div>
+            <div className="highlight-text">
+              <h2>{t('home.safetySchool.title')}</h2>
+              <h3>{t('home.safetySchool.subtitle')}</h3>
+              <p>{t('home.safetySchool.description')}</p>
+              <Link to="/safety-school" className="btn btn-primary">
+                {t('home.safetySchool.cta')}
+              </Link>
+            </div>
           </div>
         </div>
       </section>
