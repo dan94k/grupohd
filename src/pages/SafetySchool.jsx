@@ -24,9 +24,6 @@ export default function SafetySchool() {
       {/* Hero Section */}
       <section className="safety-hero">
         <div className="container">
-          <div className="safety-hero-badge">
-            <FaShieldAlt />
-          </div>
           <h1>{t('safetySchool.hero.title')}</h1>
           <p>{t('safetySchool.hero.subtitle')}</p>
         </div>

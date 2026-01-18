@@ -116,7 +116,7 @@
 }
 
 .footer-bottom {
-  border-top: 1px solid var(--color-gray-dark);
+  border-top: 5px solid var(--color-gray-dark);
   padding-top: 2rem;
   text-align: center;
   color: var(--color-gray);
