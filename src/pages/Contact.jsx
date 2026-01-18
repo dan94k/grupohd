@@ -72,7 +72,7 @@ export default function Contact() {
                   </div>
                   <div className="method-content">
                     <h3>{t('contact.info.phone')}</h3>
-                    <a href="tel:+5521999999999">+55 21 99999-9999</a>
+                    <a href="tel:+5524974024065">+55 24 97402-4065</a>
                   </div>
                 </div>
 
@@ -82,7 +82,7 @@ export default function Contact() {
                   </div>
                   <div className="method-content">
                     <h3>{t('contact.info.email')}</h3>
-                    <a href="mailto:contato@grupohd.com.br">contato@grupohd.com.br</a>
+                    <a href="mailto:anacleto@grupohdservicos.com">anacleto@grupohdservicos.com</a>
                   </div>
                 </div>
 
@@ -93,11 +93,11 @@ export default function Contact() {
                   <div className="method-content">
                     <h3>{t('contact.info.whatsapp')}</h3>
                     <a 
-                      href="https://wa.me/5521999999999?text=Olá! Gostaria de saber mais sobre os serviços do Grupo HD."
+                      href="https://wa.me/5524974024065?text=Olá! Gostaria de saber mais sobre os serviços do Grupo HD."
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      +55 21 99999-9999
+                      +55 24 97402-4065
                     </a>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ export default function Contact() {
               <div className="social-links">
                 <h3>{t('contact.info.social')}</h3>
                 <div className="social-buttons">
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-btn">
+                  <a href="https://instagram.com/grupohdsecurity" target="_blank" rel="noopener noreferrer" className="social-btn">
                     <FaInstagram />
                     <span>Instagram</span>
                   </a>

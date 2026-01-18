@@ -42,15 +42,15 @@ export default function Footer() {
             <ul className="footer-contact">
               <li>
                 <FaPhone />
-                <a href="tel:+5521999999999">+55 21 99999-9999</a>
+                <a href="tel:+5524974024065">+55 24 97402-4065</a>
               </li>
               <li>
                 <FaEnvelope />
-                <a href="mailto:contato@grupohd.com.br">contato@grupohd.com.br</a>
+                <a href="mailto:anacleto@grupohdservicos.com">anacleto@grupohdservicos.com</a>
               </li>
             </ul>
             <div className="footer-social">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a href="https://instagram.com/grupohdsecurity" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <FaInstagram />
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
