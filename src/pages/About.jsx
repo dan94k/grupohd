@@ -16,7 +16,7 @@ export default function About() {
       </section>
 
       {/* Intro Section */}
-      <section className="section intro-section">
+      <section id="sobre-nos" className="section intro-section">
         <div className="container">
           <div className="intro-content">
             <div className="intro-text">
@@ -31,7 +31,7 @@ export default function About() {
       </section>
 
       {/* History Timeline */}
-      <section className="section history-section">
+      <section id="nossa-historia" className="section history-section">
         <div className="container">
           <h2>{t('about.history.title')}</h2>
           <div className="timeline">
@@ -67,7 +67,7 @@ export default function About() {
       </section>
 
       {/* Mission, Vision, Values - Institucional */}
-      <section className="section mvv-section">
+      <section id="missao-valores" className="section mvv-section">
         <div className="container">
           <h2 className="section-title">{t('about.institutional.title')}</h2>
           <div className="mvv-grid">

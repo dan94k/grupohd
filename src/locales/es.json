@@ -156,6 +156,7 @@
       "title": "Nuestros Servicios",
       "subtitle": "Soluciones completas en seguridad privada para cada necesidad"
     },
+    "benefits": "Beneficios:",
     "list": {
       "accessControl": {
         "title": "Control de Acceso",
@@ -208,30 +209,38 @@
       "subtitle": "Seguridad Escolar con Método y Protocolo"
     },
     "intro": {
-      "title": "¿Qué es Safety School?",
-      "description": "El Proyecto Safety School es una solución completa y metodológica en seguridad escolar, que va más allá de la simple presencia de vigilantes. Es un sistema integrado que combina control de acceso inteligente, protocolos de emergencia, entrenamiento continuo y cultura de prevención para garantizar un ambiente escolar verdaderamente seguro."
+      "title": "Qué es Safety School",
+      "description": "Safety School es un programa completo de seguridad escolar desarrollado para organizar el control de acceso, prevenir ocurrencias y preparar equipos para actuar con rapidez, claridad y protocolo en situaciones de riesgo. Nuestro objetivo es garantizar que alumnos, colaboradores y familias tengan un ambiente escolar tranquilo, protegido y estructurado."
+    },
+    "about": {
+      "title": "Seguridad Escolar con Método",
+      "description": "Safety School va más allá de la presencia física. Es un modelo estructurado de prevención y respuesta, basado en diagnóstico, protocolos claros y entrenamiento continuo. Actuamos desde la prevención hasta la respuesta a incidentes, creando una cultura de seguridad dentro de la institución."
     },
     "context": {
-      "title": "¿Por qué su escuela necesita Safety School?",
-      "subtitle": "El contexto de inseguridad en las escuelas brasileñas",
+      "title": "El Desafío de la Seguridad Escolar",
+      "subtitle": "Ambientes escolares están sujetos a diversos riesgos",
       "items": [
         {
-          "title": "Violencia Física y Psicológica",
-          "description": "Agresiones, intimidaciones y conflictos dentro del ambiente escolar"
+          "title": "Violencia y Negligencia",
+          "description": "Violencia física, psicológica, sexual o institucional, negligencia y abandono que comprometen el bienestar de los alumnos."
         },
         {
           "title": "Bullying y Cyberbullying",
-          "description": "Casos crecientes de acoso y violencia entre alumnos"
+          "description": "Casos crecientes de acoso, explotación sexual, tráfico de personas y otras formas de violencia entre alumnos."
         },
         {
-          "title": "Entrada de Armas",
-          "description": "Riesgo real de objetos peligrosos dentro de las escuelas"
+          "title": "Secuestro y Cárcel",
+          "description": "Riesgos de secuestro y cárcel privada que exigen protocolos claros de seguridad y respuesta rápida."
         },
         {
-          "title": "Casos Reales",
-          "description": "Tragedias como Realengo (RJ) y otros ataques a escuelas"
+          "title": "Ataques Armados",
+          "description": "Entrada de niños o adolescentes armados (armas de fuego, cuchillos, entre otros) y casos reales como el ocurrido en Realengo."
         }
       ]
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Preparar personas capaces de comprender y atender a nuestros clientes con máxima excelencia. Asegurar que ciudadanos tengan sus derechos preservados en ambientes privados, contando con profesionales listos para actuar siempre que sea necesario."
     },
     "objective": {
       "title": "Objetivo del Proyecto",
@@ -243,71 +252,79 @@
         {
           "number": "01",
           "title": "Control de Acceso Inteligente",
-          "description": "Gestión rigurosa de entrada y salida con identificación, registro y protocolos de seguridad. Inspección de mochilas, control de visitantes y monitoreo de perímetro."
+          "description": "Entrada y salida organizadas • Identificación por credenciales • Control de visitantes • Gestión de entregas"
         },
         {
           "number": "02",
           "title": "Monitoreo y Respuesta",
-          "description": "Inspectores posicionados estratégicamente, protocolos de emergencia definidos, comunicación integrada y respuesta rápida a cualquier ocurrencia."
+          "description": "Central de monitoreo • Rondas preventivas • Activación rápida • Registro de ocurrencias"
         },
         {
           "number": "03",
           "title": "Cultura de Prevención",
-          "description": "Entrenamiento continuo del equipo escolar, simulacros periódicos, charlas de concientización y construcción de ambiente de seguridad participativa."
+          "description": "Protocolos claros • Entrenamiento continuo • Simulacros periódicos • Preparación del equipo escolar"
         }
       ]
     },
     "method": {
-      "title": "Seguridad Escolar con Método",
-      "subtitle": "Nuestro enfoque sistemático y profesional",
+      "title": "Cómo Funciona en la Práctica",
+      "subtitle": "Seguridad Escolar con Método (Safety School)",
       "steps": [
         {
-          "title": "Diagnóstico y Mapa de Riesgo",
-          "description": "Análisis completo del ambiente escolar, identificación de vulnerabilidades y creación de mapa de riesgos personalizado."
+          "title": "Diagnóstico completo y mapa de riesgos",
+          "description": "Análisis detallado de la escuela para identificar vulnerabilidades y crear estrategias personalizadas de seguridad."
         },
         {
-          "title": "Protocolos por Escenario",
-          "description": "Desarrollo de procedimientos específicos para cada tipo de emergencia: incendio, invasión, accidente, entre otros."
+          "title": "Protocolos definidos por escenario",
+          "description": "Procedimientos específicos para entrada, visitantes, incidentes y emergencias adaptados a la realidad de la institución."
         },
         {
-          "title": "Entrenamiento del Equipo",
-          "description": "Capacitación de inspectores, funcionarios y profesores en protocolos de seguridad y primeros auxilios."
+          "title": "Entrenamiento del equipo",
+          "description": "Capacitación continua de portería y coordinación en protocolos de seguridad, primeros auxilios y gestión de crisis."
         },
         {
-          "title": "Simulacros Periódicos",
-          "description": "Ejercicios prácticos regulares para probar protocolos y preparar a toda la comunidad escolar."
+          "title": "Simulacros periódicos",
+          "description": "Ejercicios prácticos regulares para probar protocolos y preparar a toda la comunidad escolar para situaciones reales."
         },
         {
-          "title": "Informes y Registros",
-          "description": "Documentación detallada de ocurrencias, análisis de datos y mejora continua de los procesos."
+          "title": "Informes y registro de ocurrencias",
+          "description": "Documentación detallada de todas las ocurrencias con análisis de datos para mejora continua. Todo adaptado a la realidad de cada institución."
         }
       ]
     },
     "differentials": {
-      "title": "Diferenciales de Safety School",
+      "title": "Diferenciales",
       "items": [
         {
-          "title": "Inspectores que SON el Protocolo",
-          "description": "Profesionales entrenados para seguir y aplicar procedimientos rigurosamente, no solo vigilar."
+          "title": "Inspectores que SON Protocolo",
+          "description": "Nuestros inspectores no son solo presencia — son protocolo. Profesionales entrenados para seguir procedimientos con excelencia."
         },
         {
-          "title": "Entrenamiento en Emergencias",
-          "description": "Capacitación en primeros auxilios, combate de incendios y gestión de crisis."
+          "title": "Control de Acceso",
+          "description": "Entrenamiento especializado en gestión de entrada y salida, identificación y autorización con protocolos rigurosos."
         },
         {
-          "title": "Experiencia Comprobada",
-          "description": "Equipo con formación militar y policial aplicada al ambiente escolar."
+          "title": "Gestión de Emergencias",
+          "description": "Capacitación en respuesta rápida a situaciones críticas, coordinación de evacuación y activación de protocolos de emergencia."
         },
         {
-          "title": "Enfoque Humanizado",
-          "description": "Seguridad que respeta el ambiente educacional y contribuye al clima escolar positivo."
+          "title": "Primeros Auxilios",
+          "description": "Equipo entrenado para atención inmediata en accidentes y situaciones que exigen intervención rápida hasta llegada de socorro."
+        },
+        {
+          "title": "Prevención y Combate de Incendio",
+          "description": "Entrenamiento completo en uso de equipos, rutas de escape y procedimientos de evacuación en casos de incendio."
+        },
+        {
+          "title": "Proceso y Constancia",
+          "description": "Seguridad real se construye con proceso, preparación y constancia. Metodología aplicada diariamente para resultados efectivos."
         }
       ]
     },
     "cta": {
-      "title": "Solicite una evaluación para su escuela",
-      "description": "Conozca Safety School y descubra cómo podemos hacer su escuela más segura",
-      "button": "Hablar con especialista"
+      "title": "Transforme la seguridad de su escuela",
+      "description": "Contáctenos y conozca cómo Safety School puede proteger su institución con método y profesionalismo.",
+      "button": "Solicitar evaluación"
     }
   },
   "contact": {
@@ -320,7 +337,8 @@
       "phone": "Teléfono",
       "email": "Correo electrónico",
       "whatsapp": "WhatsApp",
-      "social": "Redes Sociales"
+      "social": "Redes Sociales",
+      "location": "Ubicación"
     },
     "form": {
       "title": "Envíe su mensaje",
@@ -331,6 +349,7 @@
       "message": "Mensaje",
       "send": "Enviar mensaje",
       "selectService": "Seleccione un servicio",
+      "sending": "Enviando...",
       "services": {
         "safetySchool": "Safety School",
         "accessControl": "Control de Acceso",
@@ -363,6 +382,7 @@
     "contact": "Contactar",
     "back": "Volver",
     "close": "Cerrar",
-    "menu": "Menú"
+    "menu": "Menú",
+    "whatsappMessage": "¡Hola! Me gustaría saber más sobre los servicios de Grupo HD."
   }
 }

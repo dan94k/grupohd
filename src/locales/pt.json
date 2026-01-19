@@ -156,6 +156,7 @@
       "title": "Nossos Serviços",
       "subtitle": "Soluções completas em segurança privada para cada necessidade"
     },
+    "benefits": "Benefícios:",
     "list": {
       "accessControl": {
         "title": "Controle de Acesso",
@@ -332,7 +333,8 @@
       "phone": "Telefone",
       "email": "E-mail",
       "whatsapp": "WhatsApp",
-      "social": "Redes Sociais"
+      "social": "Redes Sociais",
+      "location": "Localização"
     },
     "form": {
       "title": "Envie sua mensagem",
@@ -343,6 +345,7 @@
       "message": "Mensagem",
       "send": "Enviar mensagem",
       "selectService": "Selecione um serviço",
+      "sending": "Enviando...",
       "services": {
         "safetySchool": "Safety School",
         "accessControl": "Controle de Acesso",
@@ -375,6 +378,7 @@
     "contact": "Entrar em contato",
     "back": "Voltar",
     "close": "Fechar",
-    "menu": "Menu"
+    "menu": "Menu",
+    "whatsappMessage": "Olá! Gostaria de saber mais sobre os serviços do Grupo HD."
   }
 }

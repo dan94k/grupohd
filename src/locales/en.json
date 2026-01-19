@@ -156,6 +156,7 @@
       "title": "Our Services",
       "subtitle": "Complete private security solutions for every need"
     },
+    "benefits": "Benefits:",
     "list": {
       "accessControl": {
         "title": "Access Control",
@@ -208,30 +209,38 @@
       "subtitle": "School Security with Method and Protocol"
     },
     "intro": {
-      "title": "What is Safety School?",
-      "description": "The Safety School Project is a complete and methodological solution in school security, going beyond the simple presence of guards. It is an integrated system that combines intelligent access control, emergency protocols, continuous training and prevention culture to ensure a truly safe school environment."
+      "title": "What is Safety School",
+      "description": "Safety School is a complete school security program developed to organize access control, prevent occurrences and prepare teams to act with speed, clarity and protocol in risk situations. Our goal is to ensure that students, staff and families have a calm, protected and structured school environment."
+    },
+    "about": {
+      "title": "School Security with Method",
+      "description": "Safety School goes beyond physical presence. It is a structured model of prevention and response, based on diagnosis, clear protocols and continuous training. We act from prevention to incident response, creating a security culture within the institution."
     },
     "context": {
-      "title": "Why does your school need Safety School?",
-      "subtitle": "The context of insecurity in Brazilian schools",
+      "title": "The School Security Challenge",
+      "subtitle": "School environments are subject to various risks",
       "items": [
         {
-          "title": "Physical and Psychological Violence",
-          "description": "Assaults, intimidations and conflicts within the school environment"
+          "title": "Violence and Negligence",
+          "description": "Physical, psychological, sexual or institutional violence, negligence and abandonment that compromise student well-being."
         },
         {
           "title": "Bullying and Cyberbullying",
-          "description": "Growing cases of harassment and violence among students"
+          "description": "Growing cases of harassment, sexual exploitation, human trafficking and other forms of violence among students."
         },
         {
-          "title": "Weapon Entry",
-          "description": "Real risk of dangerous objects inside schools"
+          "title": "Kidnapping and Confinement",
+          "description": "Risks of kidnapping and illegal confinement that require clear security and rapid response protocols."
         },
         {
-          "title": "Real Cases",
-          "description": "Tragedies like Realengo (RJ) and other school attacks"
+          "title": "Armed Attacks",
+          "description": "Entry of armed children or adolescents (firearms, knives, among others) and real cases like the one that occurred in Realengo."
         }
       ]
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To prepare people capable of understanding and serving our clients with maximum excellence. To ensure that citizens have their rights preserved in private environments, relying on professionals ready to act whenever necessary."
     },
     "objective": {
       "title": "Project Objective",
@@ -243,71 +252,79 @@
         {
           "number": "01",
           "title": "Intelligent Access Control",
-          "description": "Rigorous entry and exit management with identification, registration and security protocols. Backpack inspection, visitor control and perimeter monitoring."
+          "description": "Organized entry and exit • Badge identification • Visitor control • Delivery management"
         },
         {
           "number": "02",
-          "title": "Monitoring and Response",
-          "description": "Strategically positioned inspectors, defined emergency protocols, integrated communication and rapid response to any occurrence."
+          "title": "Monitoring & Response",
+          "description": "Monitoring center • Preventive patrols • Quick activation • Incident logging"
         },
         {
           "number": "03",
           "title": "Prevention Culture",
-          "description": "Continuous training of school staff, periodic drills, awareness lectures and construction of participatory security environment."
+          "description": "Clear protocols • Continuous training • Periodic drills • School team preparation"
         }
       ]
     },
     "method": {
-      "title": "School Security with Method",
-      "subtitle": "Our systematic and professional approach",
+      "title": "How It Works in Practice",
+      "subtitle": "School Security with Method (Safety School)",
       "steps": [
         {
-          "title": "Diagnosis and Risk Map",
-          "description": "Complete analysis of school environment, identification of vulnerabilities and creation of personalized risk map."
+          "title": "Complete diagnosis and risk map",
+          "description": "Detailed analysis of the school to identify vulnerabilities and create personalized security strategies."
         },
         {
-          "title": "Protocols by Scenario",
-          "description": "Development of specific procedures for each type of emergency: fire, invasion, accident, among others."
+          "title": "Protocols defined by scenario",
+          "description": "Specific procedures for entry, visitors, incidents and emergencies adapted to the institution's reality."
         },
         {
-          "title": "Team Training",
-          "description": "Training of inspectors, employees and teachers in security protocols and first aid."
+          "title": "Team training",
+          "description": "Continuous training of reception and coordination staff in security protocols, first aid and crisis management."
         },
         {
-          "title": "Periodic Drills",
-          "description": "Regular practical exercises to test protocols and prepare the entire school community."
+          "title": "Periodic drills",
+          "description": "Regular practical exercises to test protocols and prepare the entire school community for real situations."
         },
         {
-          "title": "Reports and Records",
-          "description": "Detailed documentation of occurrences, data analysis and continuous process improvement."
+          "title": "Reports and incident logging",
+          "description": "Detailed documentation of all occurrences with data analysis for continuous improvement. Everything adapted to each institution's reality."
         }
       ]
     },
     "differentials": {
-      "title": "Safety School Differentials",
+      "title": "Differentials",
       "items": [
         {
-          "title": "Inspectors who ARE the Protocol",
-          "description": "Professionals trained to rigorously follow and apply procedures, not just watch."
+          "title": "Inspectors who ARE Protocol",
+          "description": "Our inspectors are not just presence — they are protocol. Professionals trained to follow procedures with excellence."
         },
         {
-          "title": "Emergency Training",
-          "description": "Training in first aid, fire fighting and crisis management."
+          "title": "Access Control",
+          "description": "Specialized training in entry and exit management, identification and authorization with rigorous protocols."
         },
         {
-          "title": "Proven Experience",
-          "description": "Team with military and police training applied to school environment."
+          "title": "Emergency Management",
+          "description": "Training in rapid response to critical situations, evacuation coordination and activation of emergency protocols."
         },
         {
-          "title": "Humanized Approach",
-          "description": "Security that respects the educational environment and contributes to positive school climate."
+          "title": "First Aid",
+          "description": "Team trained for immediate assistance in accidents and situations requiring quick intervention until rescue arrives."
+        },
+        {
+          "title": "Fire Prevention and Fighting",
+          "description": "Complete training in equipment use, escape routes and evacuation procedures in case of fire."
+        },
+        {
+          "title": "Process and Consistency",
+          "description": "Real security is built with process, preparation and consistency. Methodology applied daily for effective results."
         }
       ]
     },
     "cta": {
-      "title": "Request an evaluation for your school",
-      "description": "Discover Safety School and find out how we can make your school safer",
-      "button": "Talk to a specialist"
+      "title": "Transform your school's security",
+      "description": "Contact us and discover how Safety School can protect your institution with method and professionalism.",
+      "button": "Request evaluation"
     }
   },
   "contact": {
@@ -320,7 +337,8 @@
       "phone": "Phone",
       "email": "Email",
       "whatsapp": "WhatsApp",
-      "social": "Social Media"
+      "social": "Social Media",
+      "location": "Location"
     },
     "form": {
       "title": "Send your message",
@@ -331,6 +349,7 @@
       "message": "Message",
       "send": "Send message",
       "selectService": "Select a service",
+      "sending": "Sending...",
       "services": {
         "safetySchool": "Safety School",
         "accessControl": "Access Control",
@@ -363,6 +382,7 @@
     "contact": "Contact us",
     "back": "Back",
     "close": "Close",
-    "menu": "Menu"
+    "menu": "Menu",
+    "whatsappMessage": "Hello! I would like to know more about HD Group services."
   }
 }

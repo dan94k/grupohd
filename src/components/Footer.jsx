@@ -22,9 +22,9 @@ export default function Footer() {
           <div className="footer-section">
             <h4>{t('footer.company')}</h4>
             <ul>
-              <li><Link to="/sobre">{t('footer.links.about')}</Link></li>
-              <li><Link to="/sobre">{t('footer.links.history')}</Link></li>
-              <li><Link to="/sobre">{t('footer.links.values')}</Link></li>
+              <li><Link to="/sobre#sobre-nos">{t('footer.links.about')}</Link></li>
+              <li><Link to="/sobre#nossa-historia">{t('footer.links.history')}</Link></li>
+              <li><Link to="/sobre#missao-valores">{t('footer.links.values')}</Link></li>
             </ul>
           </div>
 

@@ -142,7 +142,7 @@ export default function Home() {
             <h2>{t('home.cta.title')}</h2>
             <p>{t('home.cta.subtitle')}</p>
             <a 
-              href="https://wa.me/5524974024065?text=Olá! Gostaria de saber mais sobre os serviços do Grupo HD." 
+              href={`https://wa.me/5524974024065?text=${encodeURIComponent(t('common.whatsappMessage'))}`}
               target="_blank" 
               rel="noopener noreferrer"
               className="btn btn-whatsapp"

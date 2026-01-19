@@ -67,7 +67,7 @@ export default function Services() {
                   </p>
                   {t(`services.list.${service.id}.benefits`, { returnObjects: true }).length > 0 && (
                     <div className="service-benefits">
-                      <h4>Benefícios:</h4>
+                      <h4>{t('services.benefits')}</h4>
                       <ul>
                         {t(`services.list.${service.id}.benefits`, { returnObjects: true }).map((benefit, idx) => (
                           <li key={idx}>

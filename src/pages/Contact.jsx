@@ -93,7 +93,7 @@ export default function Contact() {
                   <div className="method-content">
                     <h3>{t('contact.info.whatsapp')}</h3>
                     <a 
-                      href="https://wa.me/5524974024065?text=Olá! Gostaria de saber mais sobre os serviços do Grupo HD."
+                      href={`https://wa.me/5524974024065?text=${encodeURIComponent(t('common.whatsappMessage'))}`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -107,7 +107,7 @@ export default function Contact() {
                     <FaMapMarkerAlt />
                   </div>
                   <div className="method-content">
-                    <h3>Localização</h3>
+                    <h3>{t('contact.info.location')}</h3>
                     <p>Rio de Janeiro, RJ - Brasil</p>
                   </div>
                 </div>
@@ -201,7 +201,7 @@ export default function Contact() {
                   className="btn btn-primary btn-submit"
                   disabled={status === 'sending'}
                 >
-                  {status === 'sending' ? 'Enviando...' : t('contact.form.send')}
+                  {status === 'sending' ? t('contact.form.sending') : t('contact.form.send')}
                 </button>
 
                 {status === 'success' && (
