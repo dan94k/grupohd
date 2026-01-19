@@ -91,9 +91,14 @@ export default function Services() {
           <div className="services-cta-content">
             <h2>{t('services.cta.title')}</h2>
             <p>{t('services.cta.description')}</p>
-            <Link to="/contato" className="btn btn-primary">
+            <a 
+              href={`https://wa.me/5524974024065?text=${encodeURIComponent(t('common.whatsappMessage'))}`}
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
               {t('services.cta.button')}
-            </Link>
+            </a>
           </div>
         </div>
       </section>

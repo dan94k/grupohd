@@ -43,11 +43,16 @@ export default function Home() {
             <h1 className="hero-title">{t('home.hero.title')}</h1>
             <p className="hero-subtitle">{t('home.hero.subtitle')}</p>
             <div className="hero-buttons">
-              <Link to="/contato" className="btn btn-primary">
+              <a 
+                href={`https://wa.me/5524974024065?text=${encodeURIComponent(t('common.whatsappMessage'))}`}
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
                 {t('home.hero.ctaPrimary')}
-              </Link>
-              <Link to="/safety-school" className="btn btn-secondary">
-                {t('home.hero.ctaSecondary')}
+              </a>
+              <Link to="/servicos" className="btn btn-secondary">
+                Conheça nossos serviços
               </Link>
             </div>
           </div>

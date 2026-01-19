@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { FaPhone, FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaInstagram } from 'react-icons/fa'
 import './Footer.css'
 
 export default function Footer() {
@@ -52,9 +52,6 @@ export default function Footer() {
             <div className="footer-social">
               <a href="https://instagram.com/grupohdsecurity" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <FaInstagram />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <FaLinkedin />
               </a>
             </div>
           </div>

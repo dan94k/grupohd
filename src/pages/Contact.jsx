@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { FaPhone, FaEnvelope, FaWhatsapp, FaInstagram, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaWhatsapp, FaInstagram } from 'react-icons/fa'
 import './Contact.css'
 
 export default function Contact() {
@@ -99,16 +99,6 @@ export default function Contact() {
                     >
                       +55 24 97402-4065
                     </a>
-                  </div>
-                </div>
-
-                <div className="contact-method">
-                  <div className="method-icon">
-                    <FaMapMarkerAlt />
-                  </div>
-                  <div className="method-content">
-                    <h3>{t('contact.info.location')}</h3>
-                    <p>Rio de Janeiro, RJ - Brasil</p>
                   </div>
                 </div>
               </div>

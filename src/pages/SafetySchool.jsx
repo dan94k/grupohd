@@ -167,9 +167,14 @@ export default function SafetySchool() {
             <FaShieldAlt className="cta-icon" />
             <h2>{t('safetySchool.cta.title')}</h2>
             <p>{t('safetySchool.cta.description')}</p>
-            <Link to="/contato" className="btn btn-large">
+            <a 
+              href={`https://wa.me/5524974024065?text=${encodeURIComponent(t('common.whatsappMessage'))}`}
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn btn-large"
+            >
               {t('safetySchool.cta.button')}
-            </Link>
+            </a>
           </div>
         </div>
       </section>
