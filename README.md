@@ -106,11 +106,34 @@ A troca de idioma é feita pelo seletor no cabeçalho.
 
 ## 📞 Contato
 
+### Informações de Contato
+
 Para personalizar as informações de contato, edite:
 
-- **Telefone/WhatsApp**: Procure por `5521999999999` nos arquivos
-- **E-mail**: Procure por `contato@grupohd.com.br`
+- **Telefone/WhatsApp**: Procure por `5524974024065` nos arquivos
+- **E-mail**: `anacleto@grupohdservicos.com`
 - **Redes sociais**: Links no Footer.jsx
+
+### Formulário de Contato
+
+O formulário de contato utiliza **mailto:** que abre o cliente de email do usuário com os dados pré-preenchidos.
+
+**Campos do formulário:**
+- Nome completo (obrigatório)
+- Empresa/Escola (opcional)
+- Telefone de contato (obrigatório)
+- Serviço de interesse (obrigatório)
+- Mensagem (obrigatória)
+
+**✅ Vantagens:**
+- Zero configuração necessária
+- 100% gratuito e sem limites
+- Funciona offline
+- Não depende de serviços externos
+
+**Email de destino:** Todas as mensagens são enviadas para `anacleto@grupohdservicos.com`
+
+**Alternativas:** Para envio automático de emails, veja opções em **`CONFIGURACAO_EMAIL.md`**
 
 ## 🎯 Destaques
 

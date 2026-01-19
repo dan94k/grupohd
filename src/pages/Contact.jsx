@@ -8,7 +8,7 @@ export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     company: '',
-    city: '',
+    contact: '',
     service: '',
     message: ''
   })
@@ -25,26 +25,49 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
     
-    // Simular envio do formulário
-    setStatus('sending')
+    // Construir corpo do email
+    const emailBody = `
+Você recebeu uma nova mensagem através do formulário de contato do site Grupo HD:
+
+Nome: ${formData.name}
+Empresa/Escola: ${formData.company || 'Não informado'}
+Telefone: ${formData.contact}
+Serviço de Interesse: ${formData.service}
+
+Mensagem:
+${formData.message}
+
+---
+Esta mensagem foi enviada através do formulário de contato do site.
+    `.trim()
     
-    setTimeout(() => {
-      // Aqui você integraria com um backend real ou serviço de email
-      console.log('Form data:', formData)
-      setStatus('success')
-      
-      // Resetar formulário após 3 segundos
-      setTimeout(() => {
-        setFormData({
-          name: '',
-          company: '',
-          city: '',
-          service: '',
-          message: ''
-        })
-        setStatus('')
-      }, 3000)
-    }, 1500)
+    // Construir assunto do email
+    const emailSubject = `Nova mensagem de contato - ${formData.name}`
+    
+    // Criar link mailto com todos os parâmetros
+    const mailtoLink = `mailto:anacleto@grupohdservicos.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`
+    
+    // Criar elemento <a> temporário e clicar nele
+    const link = document.createElement('a')
+    link.href = mailtoLink
+    link.target = '_blank'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+    
+    // Mostrar mensagem informativa (formulário permanece preenchido)
+    setStatus('opened')
+  }
+
+  const handleClearForm = () => {
+    setFormData({
+      name: '',
+      company: '',
+      contact: '',
+      service: '',
+      message: ''
+    })
+    setStatus('')
   }
 
   return (
@@ -143,13 +166,15 @@ export default function Contact() {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="city">{t('contact.form.city')}</label>
+                  <label htmlFor="contact">{t('contact.form.contact')} *</label>
                   <input
-                    type="text"
-                    id="city"
-                    name="city"
-                    value={formData.city}
+                    type="tel"
+                    id="contact"
+                    name="contact"
+                    value={formData.contact}
                     onChange={handleChange}
+                    placeholder="+55 24 97402-4065"
+                    required
                   />
                 </div>
 
@@ -189,10 +214,32 @@ export default function Contact() {
                 <button 
                   type="submit" 
                   className="btn btn-primary btn-submit"
-                  disabled={status === 'sending'}
+                  disabled={status === 'opened'}
                 >
-                  {status === 'sending' ? t('contact.form.sending') : t('contact.form.send')}
+                  {status === 'opened' ? t('contact.form.emailOpened') : t('contact.form.send')}
                 </button>
+
+                {status === 'opened' && (
+                  <div className="form-message success">
+                    <strong>{t('contact.form.emailOpenedTitle')}</strong>
+                    <p style={{ margin: '0.5rem 0 0 0' }}>{t('contact.form.emailOpenedMessage')}</p>
+                    <button 
+                      type="button"
+                      onClick={handleClearForm}
+                      style={{
+                        marginTop: '1rem',
+                        padding: '0.5rem 1rem',
+                        background: 'transparent',
+                        border: '1px solid currentColor',
+                        borderRadius: '4px',
+                        cursor: 'pointer',
+                        fontSize: '0.9rem'
+                      }}
+                    >
+                      {t('contact.form.clearForm')}
+                    </button>
+                  </div>
+                )}
 
                 {status === 'success' && (
                   <div className="form-message success">
