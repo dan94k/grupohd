@@ -24,7 +24,7 @@ export default function About() {
               <p>{t('about.intro.text')}</p>
             </div>
             <div className="intro-image">
-              <img src="/images/back-shirt.webp" alt="Grupo HD - Segurança Especializada" />
+              <img src={`${import.meta.env.BASE_URL}images/back-shirt.webp`} alt="Grupo HD - Segurança Especializada" />
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function About() {
         <div className="container">
           <div className="ceo-content">
             <div className="ceo-image">
-              <img src="/images/david.webp" alt="David Anacleto - CEO Grupo HD" />
+              <img src={`${import.meta.env.BASE_URL}images/david.webp`} alt="David Anacleto - CEO Grupo HD" />
             </div>
             <div className="ceo-text">
               <h2>{t('about.ceo.name')}</h2>

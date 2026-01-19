@@ -67,7 +67,7 @@ export default function Home() {
             </div>
             <div className="about-image">
               <img 
-                src="/images/logo-wall.webp" 
+                src={`${import.meta.env.BASE_URL}images/logo-wall.webp`}
                 alt="Grupo HD" 
                 className="about-logo"
               />
@@ -81,7 +81,7 @@ export default function Home() {
         <div className="container">
           <div className="highlight-content">
             <div className="highlight-image">
-              <img src="/images/safety-school-home.webp" alt="Safety School - Segurança Escolar" />
+              <img src={`${import.meta.env.BASE_URL}images/safety-school-home.webp`} alt="Safety School - Segurança Escolar" />
             </div>
             <div className="highlight-text">
               <h2>{t('home.safetySchool.title')}</h2>

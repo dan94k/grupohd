@@ -55,7 +55,7 @@ export default function Header() {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo" onClick={closeMenu}>
-            <img src="/images/logo.svg" alt="Grupo HD Logo" className="logo-image" />
+            <img src={`${import.meta.env.BASE_URL}images/logo.svg`} alt="Grupo HD Logo" className="logo-image" />
             <div className="logo-text">
               <span className="logo-name">GRUPO HD</span>
               <span className="logo-tagline">{t('footer.tagline')}</span>

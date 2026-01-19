@@ -34,7 +34,7 @@ export default function SafetySchool() {
         <div className="container">
           <div className="intro-box">
             <div className="intro-image">
-              <img src="/images/safety-school-classroom.webp" alt="Sala de aula Safety School" />
+              <img src={`${import.meta.env.BASE_URL}images/safety-school-classroom.webp`} alt="Sala de aula Safety School" />
             </div>
             <div className="intro-text">
               <h2>{t('safetySchool.intro.title')}</h2>
@@ -84,7 +84,7 @@ export default function SafetySchool() {
         <div className="container">
           <div className="mission-content">
             <div className="mission-image">
-              <img src="/images/safety-school.webp" alt="Safety School" />
+              <img src={`${import.meta.env.BASE_URL}images/safety-school.webp`} alt="Safety School" />
             </div>
             <div className="mission-text">
               <h2>{t('safetySchool.mission.title')}</h2>
