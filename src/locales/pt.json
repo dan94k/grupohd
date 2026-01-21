@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "Sobre Nós",
-    "services": "Serviços",
+    "services": "Todos os Serviços",
     "safetySchool": "Safety School",
     "contact": "Contato"
   },
@@ -65,7 +65,7 @@
         },
         "experience": {
           "title": "Experiência Comprovada",
-          "description": "Mais de 14 anos em segurança pública e privada"
+          "description": "Mais de 15 anos em segurança pública e privada"
         },
         "protocols": {
           "title": "Protocolos e Método",
@@ -125,7 +125,7 @@
         {
           "year": "2010",
           "title": "Polícia Militar do Rio de Janeiro",
-          "description": "Ingresso na Polícia Militar do RJ, onde atua há mais de 14 anos, acumulando vasta experiência em operações de segurança e realizando diversos cursos de especialização dentro da própria corporação."
+          "description": "Ingresso na Polícia Militar do RJ, onde atua há mais de 15 anos, acumulando vasta experiência em operações de segurança e realizando diversos cursos de especialização dentro da própria corporação."
         },
         {
           "year": "2018",
@@ -140,7 +140,7 @@
         {
           "year": "2025",
           "title": "Força Nacional de Segurança Pública",
-          "description": "Ingresso na Força Nacional de Segurança Pública, ampliando ainda mais a experiência prática em operações de alto nível e fortalecendo a credibilidade do Grupo HD."
+          "description": "Ingresso na Força Nacional de Segurança Pública e conclusão do 6º Curso de Operação de Choque da Força Nacional, ampliando ainda mais a experiência prática em operações de alto nível e fortalecendo a credibilidade do Grupo HD."
         }
       ]
     },
@@ -367,7 +367,7 @@
   "footer": {
     "tagline": "Segurança Especializada",
     "company": "Empresa",
-    "services": "Serviços",
+    "services": "Outros Serviços",
     "contact": "Contato",
     "links": {
       "about": "Sobre Nós",

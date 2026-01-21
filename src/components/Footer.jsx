@@ -33,7 +33,6 @@ export default function Footer() {
             <ul>
               <li><Link to="/safety-school">{t('nav.safetySchool')}</Link></li>
               <li><Link to="/servicos">{t('nav.services')}</Link></li>
-              <li><Link to="/contato">{t('nav.contact')}</Link></li>
             </ul>
           </div>
 
