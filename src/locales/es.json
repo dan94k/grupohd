@@ -118,14 +118,24 @@
       "title": "Nuestra Historia",
       "timeline": [
         {
-          "year": "2006",
-          "title": "Inicio en el Ejército Brasileño",
-          "description": "El CEO David Anacleto inició su carrera en el Ejército Brasileño, consolidando valores como disciplina, respeto a la jerarquía y principios éticos que se convirtieron en la base de toda su actuación profesional."
+          "year": "2008",
+          "title": "Formación de Sargentos del Ejército Brasileño",
+          "description": "El CEO David Anacleto completó el Curso de Formación de Sargentos del Ejército Brasileño, donde desarrolló sólidos fundamentos en liderazgo militar, disciplina operacional y valores institucionales que moldearon su trayectoria profesional en el área de seguridad."
         },
         {
-          "year": "2010",
+          "year": "2011",
           "title": "Policía Militar de Río de Janeiro",
-          "description": "Ingreso en la Policía Militar de RJ, donde actúa desde hace más de 14 años, acumulando vasta experiencia en operaciones de seguridad y realizando diversos cursos de especialización dentro de la propia corporación."
+          "description": "Ingreso en la Policía Militar de RJ, donde actúa desde hace más de 14 años, acumulando vasta experiencia en operaciones de seguridad pública y desarrollando expertise en situaciones de alta complejidad operacional."
+        },
+        {
+          "year": "2015",
+          "title": "7º Curso de Táctica de Patrullaje Urbano",
+          "description": "Especialización en técnicas avanzadas de patrullaje y control de áreas urbanas, perfeccionando habilidades en prevención y respuesta táctica en ambientes metropolitanos."
+        },
+        {
+          "year": "2017",
+          "title": "5º Curso de Operaciones de Choque de la PMRJ",
+          "description": "Conclusión del 5º Curso de Operaciones de Choque de la Policía Militar de Río de Janeiro, capacitándose en operaciones especiales y gestión de crisis de alta complejidad."
         },
         {
           "year": "2018",
@@ -133,14 +143,19 @@
           "description": "Toda la experiencia acumulada llevó a la fundación de Grupo HD, con el propósito de ofrecer servicios de seguridad especializados, sostenidos por la disciplina y la excelencia operacional."
         },
         {
+          "year": "2021",
+          "title": "10º Curso de Tripulante Operacional",
+          "description": "Formación en el 10º Curso de Tripulante Operacional de Operaciones Aéreas del Estado de Río de Janeiro, expandiendo competencias para operaciones aerotácticas y coordinación de seguridad en múltiples plataformas."
+        },
+        {
           "year": "2024",
           "title": "6º Curso de Seguridad y Protección de Autoridades",
-          "description": "Conclusión del 6º Curso de Seguridad y Protección de Autoridades de la Fuerza Nacional, consolidándose como referencia en protección ejecutiva."
+          "description": "Conclusión del 6º Curso de Seguridad y Protección de Autoridades de la Fuerza Nacional de Seguridad Pública, consolidándose como referencia en protección ejecutiva y seguridad de alto nivel."
         },
         {
           "year": "2025",
           "title": "Fuerza Nacional de Seguridad Pública",
-          "description": "Ingreso en la Fuerza Nacional de Seguridad Pública y conclusión del 6º Curso de Operación de Choque de la Fuerza Nacional, ampliando aún más la experiencia práctica en operaciones de alto nivel y fortaleciendo la credibilidad de Grupo HD."
+          "description": "Ingreso en la Fuerza Nacional de Seguridad Pública, con aprobación en el INC (Instrucción de Nivelación y Conocimiento) y conclusión del 6º Curso de Operaciones de Choque de la Fuerza Nacional, ampliando aún más la experiencia práctica en operaciones de élite y fortaleciendo la credibilidad de Grupo HD."
         }
       ]
     },

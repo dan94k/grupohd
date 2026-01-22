@@ -118,14 +118,24 @@
       "title": "Nossa História",
       "timeline": [
         {
-          "year": "2006",
-          "title": "Início no Exército Brasileiro",
-          "description": "O CEO David Anacleto iniciou sua carreira no Exército Brasileiro, consolidando valores como disciplina, respeito à hierarquia e princípios éticos que se tornaram a base de toda sua atuação profissional."
+          "year": "2008",
+          "title": "Formação de Sargentos do Exército Brasileiro",
+          "description": "O CEO David Anacleto concluiu o Curso de Formação de Sargentos do Exército Brasileiro, onde desenvolveu sólidos fundamentos em liderança militar, disciplina operacional e valores institucionais que moldaram sua trajetória profissional na área de segurança."
         },
         {
-          "year": "2010",
+          "year": "2011",
           "title": "Polícia Militar do Rio de Janeiro",
-          "description": "Ingresso na Polícia Militar do RJ, onde atua há mais de 15 anos, acumulando vasta experiência em operações de segurança e realizando diversos cursos de especialização dentro da própria corporação."
+          "description": "Ingresso na Polícia Militar do RJ, onde atua há mais de 14 anos, acumulando vasta experiência em operações de segurança pública e desenvolvendo expertise em situações de alta complexidade operacional."
+        },
+        {
+          "year": "2015",
+          "title": "7º Curso de Tática de Patrulhamento Urbano",
+          "description": "Especialização em técnicas avançadas de patrulhamento e controle de áreas urbanas, aprimorando habilidades em prevenção e resposta tática em ambientes metropolitanos."
+        },
+        {
+          "year": "2017",
+          "title": "5º Curso de Operações de Choque da PMRJ",
+          "description": "Conclusão do 5º Curso de Operações de Choque da Polícia Militar do Rio de Janeiro, capacitando-se em operações especiais e gerenciamento de crises de alta complexidade."
         },
         {
           "year": "2018",
@@ -133,14 +143,19 @@
           "description": "Toda a bagagem acumulada levou à fundação do Grupo HD, com o propósito de oferecer serviços de segurança especializados, sustentados pela disciplina e pela excelência operacional."
         },
         {
+          "year": "2021",
+          "title": "10º Curso de Tripulante Operacional",
+          "description": "Formação no 10º Curso de Tripulante Operacional de Operações Aéreas do Estado do Rio de Janeiro, expandindo competências para operações aerotáticas e coordenação de segurança em múltiplas plataformas."
+        },
+        {
           "year": "2024",
           "title": "6º Curso de Segurança e Proteção de Autoridades",
-          "description": "Conclusão do 6º Curso de Segurança e Proteção de Autoridades da Força Nacional, consolidando-se como referência em proteção executiva."
+          "description": "Conclusão do 6º Curso de Segurança e Proteção de Autoridades da Força Nacional de Segurança Pública, consolidando-se como referência em proteção executiva e segurança de alto nível."
         },
         {
           "year": "2025",
           "title": "Força Nacional de Segurança Pública",
-          "description": "Ingresso na Força Nacional de Segurança Pública e conclusão do 6º Curso de Operação de Choque da Força Nacional, ampliando ainda mais a experiência prática em operações de alto nível e fortalecendo a credibilidade do Grupo HD."
+          "description": "Ingresso na Força Nacional de Segurança Pública, com aprovação no INC (Instrução de Nivelamento e Conhecimento) e conclusão do 6º Curso de Operações de Choque da Força Nacional, ampliando ainda mais a experiência prática em operações de elite e fortalecendo a credibilidade do Grupo HD."
         }
       ]
     },

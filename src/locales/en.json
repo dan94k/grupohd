@@ -118,14 +118,24 @@
       "title": "Our History",
       "timeline": [
         {
-          "year": "2006",
-          "title": "Start in Brazilian Army",
-          "description": "CEO David Anacleto began his career in the Brazilian Army, consolidating values such as discipline, respect for hierarchy and ethical principles that became the foundation of his entire professional performance."
+          "year": "2008",
+          "title": "Brazilian Army Sergeant Training",
+          "description": "CEO David Anacleto completed the Brazilian Army Sergeant Training Course, where he developed solid foundations in military leadership, operational discipline and institutional values that shaped his professional trajectory in the security field."
         },
         {
-          "year": "2010",
+          "year": "2011",
           "title": "Rio de Janeiro Military Police",
-          "description": "Joined the Rio de Janeiro Military Police, where he has been working for over 14 years, accumulating vast experience in security operations and completing various specialization courses within the corporation itself."
+          "description": "Joined the Rio de Janeiro Military Police, where he has been working for over 14 years, accumulating vast experience in public security operations and developing expertise in highly complex operational situations."
+        },
+        {
+          "year": "2015",
+          "title": "7th Urban Patrol Tactics Course",
+          "description": "Specialization in advanced patrolling techniques and urban area control, enhancing skills in prevention and tactical response in metropolitan environments."
+        },
+        {
+          "year": "2017",
+          "title": "5th Shock Operations Course - PMRJ",
+          "description": "Completion of the 5th Shock Operations Course of the Rio de Janeiro Military Police, qualifying in special operations and highly complex crisis management."
         },
         {
           "year": "2018",
@@ -133,14 +143,19 @@
           "description": "All the accumulated experience led to the founding of HD Group, with the purpose of offering specialized security services, supported by discipline and operational excellence."
         },
         {
+          "year": "2021",
+          "title": "10th Operational Crew Member Course",
+          "description": "Training in the 10th Operational Crew Member Course for Aerial Operations of Rio de Janeiro State, expanding competencies for aerotactical operations and security coordination on multiple platforms."
+        },
+        {
           "year": "2024",
           "title": "6th Course in Security and Protection of Authorities",
-          "description": "Completion of the 6th Course in Security and Protection of Authorities from the National Force, establishing himself as a reference in executive protection."
+          "description": "Completion of the 6th Course in Security and Protection of Authorities from the National Public Security Force, establishing himself as a reference in executive protection and high-level security."
         },
         {
           "year": "2025",
           "title": "National Public Security Force",
-          "description": "Joining the National Public Security Force and completion of the 6th Shock Operation Course from the National Force, further expanding practical experience in high-level operations and strengthening HD Group's credibility."
+          "description": "Joining the National Public Security Force, passing the INC (Leveling and Knowledge Instruction) and completing the 6th Shock Operations Course of the National Force, further expanding practical experience in elite operations and strengthening HD Group's credibility."
         }
       ]
     },
