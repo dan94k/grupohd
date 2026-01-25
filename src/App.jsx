@@ -11,7 +11,7 @@ import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
-    <Router basename="/grupohd">
+    <Router>
       <ScrollToTop />
       <div className="app">
         <Header />
