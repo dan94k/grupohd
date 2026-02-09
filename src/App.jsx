@@ -5,7 +5,7 @@ import WhatsAppButton from './components/WhatsAppButton'
 import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
-import SafetySchool from './pages/SafetySchool'
+import SafeSchool from './pages/SafeSchool'
 import Contact from './pages/Contact'
 import ScrollToTop from './components/ScrollToTop'
 
@@ -20,7 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<About />} />
             <Route path="/servicos" element={<Services />} />
-            <Route path="/safety-school" element={<SafetySchool />} />
+            <Route path="/safe-school" element={<SafeSchool />} />
             <Route path="/contato" element={<Contact />} />
           </Routes>
         </main>

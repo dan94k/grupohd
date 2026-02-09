@@ -3,7 +3,7 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
-    "safetySchool": "Safety School",
+    "safeSchool": "Safe School",
     "contact": "Contact"
   },
   "home": {
@@ -11,16 +11,16 @@
       "title": "Specialized security for environments that demand absolute trust",
       "subtitle": "Complete private security solutions with method, discipline and highly trained professionals.",
       "ctaPrimary": "Talk to a specialist",
-      "ctaSecondary": "Discover Safety School"
+      "ctaSecondary": "Discover Safe School"
     },
     "about": {
       "title": "Who We Are",
       "description": "HD Group offers private security services with experienced professionals from public and private security. Our team consists of professionals trained in the Brazilian Army and Military Police, ensuring operational excellence and absolute trust.",
       "cta": "Know our history"
     },
-    "safetySchool": {
+    "safeSchool": {
       "tag": "Featured Project",
-      "title": "Safety School",
+      "title": "Safe School",
       "subtitle": "Complete School Security",
       "description": "Complete school security program with access control, emergency protocols, team training and prevention. A methodological solution to ensure a safe and prepared school environment.",
       "cta": "Discover the project"
@@ -183,8 +183,8 @@
         "description": "Professional service at the reception of corporate spaces, hotels or events, combining courtesy with discreet surveillance.",
         "benefits": []
       },
-      "safetyTour": {
-        "title": "Safety Tour",
+      "safeTour": {
+        "title": "Safe Tour",
         "description": "Accompanying tourists to the destinations they desire – whether a classic city tour (e.g., Christ the Redeemer in Rio), cultural tours or personalized explorations. The guide (bilingual or not) takes care of navigation, locations and discreet security, using armored vehicles for transfers between points.",
         "benefits": []
       },
@@ -218,18 +218,18 @@
       "button": "Talk to a specialist"
     }
   },
-  "safetySchool": {
+  "safeSchool": {
     "hero": {
-      "title": "Safety School Project",
+      "title": "Safe School Project",
       "subtitle": "School Security with Method and Protocol"
     },
     "intro": {
-      "title": "What is Safety School",
-      "description": "Safety School is a complete school security program developed to organize access control, prevent occurrences and prepare teams to act with speed, clarity and protocol in risk situations. Our goal is to ensure that students, staff and families have a calm, protected and structured school environment."
+      "title": "What is Safe School",
+      "description": "Safe School is a complete school security program developed to organize access control, prevent occurrences and prepare teams to act with speed, clarity and protocol in risk situations. Our goal is to ensure that students, staff and families have a calm, protected and structured school environment."
     },
     "about": {
       "title": "School Security with Method",
-      "description": "Safety School goes beyond physical presence. It is a structured model of prevention and response, based on diagnosis, clear protocols and continuous training. We act from prevention to incident response, creating a security culture within the institution."
+      "description": "Safe School goes beyond physical presence. It is a structured model of prevention and response, based on diagnosis, clear protocols and continuous training. We act from prevention to incident response, creating a security culture within the institution."
     },
     "context": {
       "title": "The School Security Challenge",
@@ -262,7 +262,7 @@
       "description": "Ensure a safe, organized school environment prepared for emergencies, with clear protocols, trained staff and consolidated prevention culture."
     },
     "pillars": {
-      "title": "The 3 Pillars of Safety School",
+      "title": "The 3 Pillars of Safe School",
       "items": [
         {
           "number": "01",
@@ -283,7 +283,7 @@
     },
     "method": {
       "title": "How It Works in Practice",
-      "subtitle": "School Security with Method (Safety School)",
+      "subtitle": "School Security with Method (Safe School)",
       "steps": [
         {
           "title": "Complete diagnosis and risk map",
@@ -338,7 +338,7 @@
     },
     "cta": {
       "title": "Transform your school's security",
-      "description": "Contact us and discover how Safety School can protect your institution with method and professionalism.",
+      "description": "Contact us and discover how Safe School can protect your institution with method and professionalism.",
       "button": "Request evaluation"
     }
   },
@@ -370,7 +370,7 @@
       "emailOpenedMessage": "Continue in your email application and click \"Send\" to complete sending the message.",
       "clearForm": "Clear form",
       "services": {
-        "safetySchool": "Safety School",
+        "safeSchool": "Safe School",
         "accessControl": "Access Control",
         "reception": "Reception",
         "vip": "VIP Security",

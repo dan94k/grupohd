@@ -66,8 +66,8 @@ export default function Header() {
             <Link to="/" className={`nav-link ${isActive('/')}`} onClick={closeMenu}>
               {t('nav.home')}
             </Link>
-            <Link to="/safety-school" className={`nav-link ${isActive('/safety-school')} highlight`} onClick={closeMenu}>
-              {t('nav.safetySchool')}
+            <Link to="/safe-school" className={`nav-link ${isActive('/safe-school')} highlight`} onClick={closeMenu}>
+              {t('nav.safeSchool')}
             </Link>
             <Link to="/servicos" className={`nav-link ${isActive('/servicos')}`} onClick={closeMenu}>
               {t('nav.services')}

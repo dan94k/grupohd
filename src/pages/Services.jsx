@@ -24,7 +24,7 @@ export default function Services() {
       icon: <FaUserTie />,
     },
     {
-      id: 'safetyTour',
+      id: 'safeTour',
       icon: <FaRoute />,
     },
     {

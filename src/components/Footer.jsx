@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="footer-section">
             <h4>{t('footer.services')}</h4>
             <ul>
-              <li><Link to="/safety-school">{t('nav.safetySchool')}</Link></li>
+              <li><Link to="/safe-school">{t('nav.safeSchool')}</Link></li>
               <li><Link to="/servicos">{t('nav.services')}</Link></li>
             </ul>
           </div>

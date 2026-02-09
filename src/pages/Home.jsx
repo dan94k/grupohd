@@ -81,19 +81,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Safety School Highlight */}
-      <section className="section safety-school-highlight">
+      {/* Safe School Highlight */}
+      <section className="section safe-school-highlight">
         <div className="container">
           <div className="highlight-content">
             <div className="highlight-image">
-              <img src={`${import.meta.env.BASE_URL}images/safety-school-home.webp`} alt="Safety School - Segurança Escolar" />
+              <img src={`${import.meta.env.BASE_URL}images/safe-school-home.webp`} alt="Safe School - Segurança Escolar" />
             </div>
             <div className="highlight-text">
-              <h2>{t('home.safetySchool.title')}</h2>
-              <h3>{t('home.safetySchool.subtitle')}</h3>
-              <p>{t('home.safetySchool.description')}</p>
-              <Link to="/safety-school" className="btn btn-primary">
-                {t('home.safetySchool.cta')}
+              <h2>{t('home.safeSchool.title')}</h2>
+              <h3>{t('home.safeSchool.subtitle')}</h3>
+              <p>{t('home.safeSchool.description')}</p>
+              <Link to="/safe-school" className="btn btn-primary">
+                {t('home.safeSchool.cta')}
               </Link>
             </div>
           </div>

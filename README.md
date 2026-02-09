@@ -26,7 +26,7 @@ O site utiliza uma paleta de cores profissional e séria:
 1. **Home** - Apresentação geral da empresa com destaques
 2. **Sobre Nós** - História, missão, visão, valores e timeline
 3. **Serviços** - Lista completa de serviços oferecidos
-4. **Safety School** - Página dedicada ao projeto carro-chefe (⭐ Destaque)
+4. **Safe School** - Página dedicada ao projeto carro-chefe (⭐ Destaque)
 5. **Contato** - Formulário e informações de contato
 
 ### Recursos
@@ -82,7 +82,7 @@ src/
 │   ├── Home.jsx
 │   ├── About.jsx
 │   ├── Services.jsx
-│   ├── SafetySchool.jsx
+│   ├── SafeSchool.jsx
 │   └── Contact.jsx
 ├── locales/            # Arquivos de tradução
 │   ├── pt.json         # Português
@@ -137,9 +137,9 @@ O formulário de contato utiliza **mailto:** que abre o cliente de email do usu�
 
 ## 🎯 Destaques
 
-### Safety School
+### Safe School
 
-A página **Safety School** é o projeto carro-chefe, destacando:
+A página **Safe School** é o projeto carro-chefe, destacando:
 
 - 3 Pilares fundamentais
 - Metodologia sistemática

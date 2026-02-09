@@ -188,7 +188,7 @@ Esta mensagem foi enviada através do formulário de contato do site.
                     required
                   >
                     <option value="">{t('contact.form.selectService')}</option>
-                    <option value="safetySchool">{t('contact.form.services.safetySchool')}</option>
+                    <option value="safeSchool">{t('contact.form.services.safeSchool')}</option>
                     <option value="accessControl">{t('contact.form.services.accessControl')}</option>
                     <option value="reception">{t('contact.form.services.reception')}</option>
                     <option value="vip">{t('contact.form.services.vip')}</option>

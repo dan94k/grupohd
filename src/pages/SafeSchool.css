@@ -1,9 +1,9 @@
-.safety-school {
+.safe-school {
   padding-top: 80px;
 }
 
-/* Safety Hero */
-.safety-hero {
+/* Safe Hero */
+.safe-hero {
   background: linear-gradient(135deg, var(--color-primary) 0%, #2a9599 100%);
   color: var(--color-white);
   padding: 5rem 2rem 4rem;
@@ -12,7 +12,7 @@
   overflow: hidden;
 }
 
-.safety-hero::before {
+.safe-hero::before {
   content: '';
   position: absolute;
   top: 0;
@@ -29,7 +29,7 @@
     );
 }
 
-.safety-hero-badge {
+.safe-hero-badge {
   font-size: 4rem;
   margin-bottom: 1.5rem;
   display: inline-flex;
@@ -39,14 +39,14 @@
   backdrop-filter: blur(10px);
 }
 
-.safety-hero h1 {
+.safe-hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
   position: relative;
   z-index: 1;
 }
 
-.safety-hero p {
+.safe-hero p {
   font-size: 1.3rem;
   opacity: 0.95;
   position: relative;
@@ -56,7 +56,7 @@
 }
 
 /* Intro Section */
-.safety-intro {
+.safe-intro {
   padding: 6rem 0;
   background-color: var(--color-white);
 }
@@ -107,7 +107,7 @@
 }
 
 /* About Section */
-.safety-about {
+.safe-about {
   background-color: var(--color-gray-lighter);
   padding: 6rem 0;
 }
@@ -396,7 +396,7 @@
 }
 
 /* Differentials Section */
-.safety-differentials-section {
+.safe-differentials-section {
   padding: 6rem 0;
   background-color: var(--color-white);
 }
@@ -439,12 +439,12 @@
 }
 
 /* CTA Section */
-.safety-cta-section {
+.safe-cta-section {
   background: linear-gradient(135deg, var(--color-primary) 0%, #2a9599 100%);
   padding: 6rem 0;
 }
 
-.safety-cta-content {
+.safe-cta-content {
   text-align: center;
   color: var(--color-white);
   max-width: 800px;
@@ -456,12 +456,12 @@
   margin-bottom: 1.5rem;
 }
 
-.safety-cta-content h2 {
+.safe-cta-content h2 {
   font-size: 2.8rem;
   margin-bottom: 1rem;
 }
 
-.safety-cta-content p {
+.safe-cta-content p {
   font-size: 1.2rem;
   margin-bottom: 2.5rem;
   opacity: 0.95;
@@ -489,24 +489,24 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .safety-school {
+  .safe-school {
     padding-top: 70px;
   }
 
-  .safety-hero {
+  .safe-hero {
     padding: 3.5rem 1.5rem 3rem;
   }
 
-  .safety-hero-badge {
+  .safe-hero-badge {
     font-size: 3rem;
     padding: 1.5rem;
   }
 
-  .safety-hero h1 {
+  .safe-hero h1 {
     font-size: 2rem;
   }
 
-  .safety-hero p {
+  .safe-hero p {
     font-size: 1.05rem;
   }
 
@@ -596,11 +596,11 @@
     grid-template-columns: 1fr;
   }
 
-  .safety-cta-content h2 {
+  .safe-cta-content h2 {
     font-size: 2rem;
   }
 
-  .safety-cta-content p {
+  .safe-cta-content p {
     font-size: 1rem;
   }
 }

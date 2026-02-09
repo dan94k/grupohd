@@ -14,43 +14,43 @@ import {
   FaChalkboardTeacher,
   FaFire
 } from 'react-icons/fa'
-import './SafetySchool.css'
+import './SafeSchool.css'
 
-export default function SafetySchool() {
+export default function SafeSchool() {
   const { t } = useTranslation()
 
   return (
-    <div className="safety-school">
+    <div className="safe-school">
       {/* Hero Section */}
-      <section className="safety-hero">
+      <section className="safe-hero">
         <div className="container">
-          <h1>{t('safetySchool.hero.title')}</h1>
-          <p>{t('safetySchool.hero.subtitle')}</p>
+          <h1>{t('safeSchool.hero.title')}</h1>
+          <p>{t('safeSchool.hero.subtitle')}</p>
         </div>
       </section>
 
       {/* Intro Section */}
-      <section className="section safety-intro">
+      <section className="section safe-intro">
         <div className="container">
           <div className="intro-box">
             <div className="intro-image">
-              <img src={`${import.meta.env.BASE_URL}images/safety-school-classroom.webp`} alt="Sala de aula Safety School" />
+              <img src={`${import.meta.env.BASE_URL}images/safe-school-classroom.webp`} alt="Sala de aula Safe School" />
             </div>
             <div className="intro-text">
-              <h2>{t('safetySchool.intro.title')}</h2>
-              <p>{t('safetySchool.intro.description')}</p>
+              <h2>{t('safeSchool.intro.title')}</h2>
+              <p>{t('safeSchool.intro.description')}</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="section safety-about">
+      <section className="section safe-about">
         <div className="container">
           <div className="about-content">
             <FaShieldAlt className="about-icon" />
-            <h2>{t('safetySchool.about.title')}</h2>
-            <p>{t('safetySchool.about.description')}</p>
+            <h2>{t('safeSchool.about.title')}</h2>
+            <p>{t('safeSchool.about.description')}</p>
           </div>
         </div>
       </section>
@@ -60,12 +60,12 @@ export default function SafetySchool() {
         <div className="container">
           <div className="context-header">
             <FaExclamationTriangle />
-            <h2>{t('safetySchool.context.title')}</h2>
-            <p>{t('safetySchool.context.subtitle')}</p>
+            <h2>{t('safeSchool.context.title')}</h2>
+            <p>{t('safeSchool.context.subtitle')}</p>
           </div>
           
           <div className="context-grid">
-            {t('safetySchool.context.items', { returnObjects: true }).map((item, index) => {
+            {t('safeSchool.context.items', { returnObjects: true }).map((item, index) => {
               const icons = [<FaUsers />, <FaBullhorn />, <FaBan />, <FaExclamationTriangle />]
               return (
                 <div key={index} className="context-card">
@@ -84,11 +84,11 @@ export default function SafetySchool() {
         <div className="container">
           <div className="mission-content">
             <div className="mission-image">
-              <img src={`${import.meta.env.BASE_URL}images/safety-school.webp`} alt="Safety School" />
+              <img src={`${import.meta.env.BASE_URL}images/safe-school.webp`} alt="Safe School" />
             </div>
             <div className="mission-text">
-              <h2>{t('safetySchool.mission.title')}</h2>
-              <p>{t('safetySchool.mission.description')}</p>
+              <h2>{t('safeSchool.mission.title')}</h2>
+              <p>{t('safeSchool.mission.description')}</p>
             </div>
           </div>
         </div>
@@ -97,10 +97,10 @@ export default function SafetySchool() {
       {/* Pillars Section */}
       <section className="section pillars-section">
         <div className="container">
-          <h2 className="section-title">{t('safetySchool.pillars.title')}</h2>
+          <h2 className="section-title">{t('safeSchool.pillars.title')}</h2>
           
           <div className="pillars-grid">
-            {t('safetySchool.pillars.items', { returnObjects: true }).map((pillar, index) => (
+            {t('safeSchool.pillars.items', { returnObjects: true }).map((pillar, index) => (
               <div key={index} className="pillar-card">
                 <div className="pillar-number">{pillar.number}</div>
                 <h3>{pillar.title}</h3>
@@ -115,12 +115,12 @@ export default function SafetySchool() {
       <section className="section method-section">
         <div className="container">
           <div className="method-header">
-            <h2>{t('safetySchool.method.title')}</h2>
-            <p>{t('safetySchool.method.subtitle')}</p>
+            <h2>{t('safeSchool.method.title')}</h2>
+            <p>{t('safeSchool.method.subtitle')}</p>
           </div>
 
           <div className="method-steps">
-            {t('safetySchool.method.steps', { returnObjects: true }).map((step, index) => {
+            {t('safeSchool.method.steps', { returnObjects: true }).map((step, index) => {
               const icons = [
                 <FaClipboardList />,
                 <FaBookOpen />,
@@ -144,12 +144,12 @@ export default function SafetySchool() {
       </section>
 
       {/* Differentials Section */}
-      <section className="section safety-differentials-section">
+      <section className="section safe-differentials-section">
         <div className="container">
-          <h2 className="section-title">{t('safetySchool.differentials.title')}</h2>
+          <h2 className="section-title">{t('safeSchool.differentials.title')}</h2>
           
           <div className="differentials-grid">
-            {t('safetySchool.differentials.items', { returnObjects: true }).map((diff, index) => (
+            {t('safeSchool.differentials.items', { returnObjects: true }).map((diff, index) => (
               <div key={index} className="differential-box">
                 <FaCheckCircle className="diff-check" />
                 <h3>{diff.title}</h3>
@@ -161,19 +161,19 @@ export default function SafetySchool() {
       </section>
 
       {/* CTA Section */}
-      <section className="section safety-cta-section">
+      <section className="section safe-cta-section">
         <div className="container">
-          <div className="safety-cta-content">
+          <div className="safe-cta-content">
             <FaShieldAlt className="cta-icon" />
-            <h2>{t('safetySchool.cta.title')}</h2>
-            <p>{t('safetySchool.cta.description')}</p>
+            <h2>{t('safeSchool.cta.title')}</h2>
+            <p>{t('safeSchool.cta.description')}</p>
             <a 
               href={`https://wa.me/5524974024065?text=${encodeURIComponent(t('common.whatsappMessage'))}`}
               target="_blank" 
               rel="noopener noreferrer"
               className="btn btn-large"
             >
-              {t('safetySchool.cta.button')}
+              {t('safeSchool.cta.button')}
             </a>
           </div>
         </div>

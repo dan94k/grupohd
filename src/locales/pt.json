@@ -3,7 +3,7 @@
     "home": "Home",
     "about": "Sobre Nós",
     "services": "Todos os Serviços",
-    "safetySchool": "Safety School",
+    "safeSchool": "Safe School",
     "contact": "Contato"
   },
   "home": {
@@ -11,16 +11,16 @@
       "title": "Segurança especializada para ambientes que exigem confiança absoluta",
       "subtitle": "Soluções completas em segurança privada, com método, disciplina e profissionais altamente capacitados.",
       "ctaPrimary": "Fale com um especialista",
-      "ctaSecondary": "Conheça o Safety School"
+      "ctaSecondary": "Conheça o Safe School"
     },
     "about": {
       "title": "Quem Somos",
       "description": "O Grupo HD oferece serviços de segurança privada com profissionais experientes, oriundos da segurança pública e privada. Nossa equipe é formada por profissionais com formação no Exército Brasileiro e Polícia Militar, garantindo excelência operacional e confiança absoluta.",
       "cta": "Conheça nossa história"
     },
-    "safetySchool": {
+    "safeSchool": {
       "tag": "Projeto Destaque",
-      "title": "Safety School",
+      "title": "Safe School",
       "subtitle": "Segurança Escolar Completa",
       "description": "Programa completo de segurança escolar com controle de acesso, protocolos de emergência, treinamento de equipe e prevenção. Uma solução metodológica para garantir ambiente escolar seguro e preparado.",
       "cta": "Conhecer o projeto"
@@ -183,8 +183,8 @@
         "description": "Atendimento profissional na recepção de espaços corporativos, hotéis ou eventos, combinando cortesia com vigilância discreta.",
         "benefits": []
       },
-      "safetyTour": {
-        "title": "Safety Tour",
+      "safeTour": {
+        "title": "Safe Tour",
         "description": "Acompanhamento de turistas pelos destinos que eles desejarem – seja um city tour clássico (Ex.: Cristo Redentor no RJ), passeios culturais ou explorações personalizadas. O guia (bilíngue ou não) cuida da navegação, dos locais e da segurança discreta, usando veículos blindados para traslados entre pontos.",
         "benefits": []
       },
@@ -218,18 +218,18 @@
       "button": "Falar com especialista"
     }
   },
-  "safetySchool": {
+  "safeSchool": {
     "hero": {
-      "title": "Projeto Safety School",
+      "title": "Projeto Safe School",
       "subtitle": "Segurança escolar com método, protocolo e preparo real."
     },
     "intro": {
-      "title": "O que é o Safety School",
-      "description": "O Safety School é um programa completo de segurança escolar desenvolvido para organizar o controle de acesso, prevenir ocorrências e preparar equipes para agir com rapidez, clareza e protocolo em situações de risco. Nosso objetivo é garantir que alunos, colaboradores e famílias tenham um ambiente escolar tranquilo, protegido e estruturado."
+      "title": "O que é o Safe School",
+      "description": "O Safe School é um programa completo de segurança escolar desenvolvido para organizar o controle de acesso, prevenir ocorrências e preparar equipes para agir com rapidez, clareza e protocolo em situações de risco. Nosso objetivo é garantir que alunos, colaboradores e famílias tenham um ambiente escolar tranquilo, protegido e estruturado."
     },
     "about": {
       "title": "Segurança Escolar com Método",
-      "description": "O Safety School vai além da presença física. É um modelo estruturado de prevenção e resposta, baseado em diagnóstico, protocolos claros e treinamento contínuo. Atuamos desde a prevenção até a resposta a incidentes, criando uma cultura de segurança dentro da instituição."
+      "description": "O Safe School vai além da presença física. É um modelo estruturado de prevenção e resposta, baseado em diagnóstico, protocolos claros e treinamento contínuo. Atuamos desde a prevenção até a resposta a incidentes, criando uma cultura de segurança dentro da instituição."
     },
     "context": {
       "title": "O Desafio da Segurança Escolar",
@@ -258,7 +258,7 @@
       "description": "Preparar pessoas capazes de compreender e atender nossos clientes com máxima excelência. Assegurar que cidadãos tenham seus direitos preservados em ambientes privados, contando com profissionais prontos para atuar sempre que necessário."
     },
     "pillars": {
-      "title": "Os 3 Pilares do Safety School",
+      "title": "Os 3 Pilares do Safe School",
       "items": [
         {
           "number": "01",
@@ -279,7 +279,7 @@
     },
     "method": {
       "title": "Como Funciona na Prática",
-      "subtitle": "Segurança Escolar com Método (Safety School)",
+      "subtitle": "Segurança Escolar com Método (Safe School)",
       "steps": [
         {
           "title": "Diagnóstico completo e mapa de risco",
@@ -334,7 +334,7 @@
     },
     "cta": {
       "title": "Transforme a segurança da sua escola",
-      "description": "Entre em contato e conheça como o Safety School pode proteger sua instituição com método e profissionalismo.",
+      "description": "Entre em contato e conheça como o Safe School pode proteger sua instituição com método e profissionalismo.",
       "button": "Solicitar avaliação"
     }
   },
@@ -366,7 +366,7 @@
       "emailOpenedMessage": "Continue no seu aplicativo de email e clique em \"Enviar\" para completar o envio da mensagem.",
       "clearForm": "Limpar formulário",
       "services": {
-        "safetySchool": "Safety School",
+        "safeSchool": "Safe School",
         "accessControl": "Controle de Acesso",
         "reception": "Recepção",
         "vip": "Segurança VIP",
