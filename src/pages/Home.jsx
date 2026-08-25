@@ -109,38 +109,34 @@ export default function Home({ showTrackRecord = false }) {
             </div>
 
             <div className="client-slide" aria-live="polite">
-              <div className="client-placeholder" aria-label={t('home.trackRecord.placeholder.ariaLabel', { number: String(activeClient + 1).padStart(2, '0'), name: currentClient.name })}>
-                <span className="client-placeholder-mark">{t('home.trackRecord.mark')}</span>
-                <span className="client-placeholder-label">{t('home.trackRecord.placeholder.label', { number: String(activeClient + 1).padStart(2, '0') })}</span>
-              </div>
+              <img className="client-image" src={`${import.meta.env.BASE_URL}images/track.jpg`} alt="" />
               <article className="client-case">
                 <span className="client-eyebrow">{t('home.trackRecord.title')}</span>
                 <h3>{currentClient.name}</h3>
                 <h4>{currentClient.title}</h4>
                 <p>{currentClient.description}</p>
+                <div className="clients-navigation">
+                  <button type="button" className="client-arrow" onClick={() => changeClient(-1)} aria-label={t('home.trackRecord.navigation.previous')}>
+                    <FaChevronLeft aria-hidden="true" />
+                  </button>
+                  <div className="client-dots" role="tablist" aria-label={t('home.trackRecord.navigation.indicators')}>
+                    {clients.map((client, index) => (
+                      <button
+                        type="button"
+                        key={client.name}
+                        className={`client-dot${activeClient === index ? ' is-active' : ''}`}
+                        onClick={() => setActiveClient(index)}
+                        role="tab"
+                        aria-selected={activeClient === index}
+                        aria-label={t('home.trackRecord.navigation.indicator', { number: index + 1, name: client.name })}
+                      />
+                    ))}
+                  </div>
+                  <button type="button" className="client-arrow" onClick={() => changeClient(1)} aria-label={t('home.trackRecord.navigation.next')}>
+                    <FaChevronRight aria-hidden="true" />
+                  </button>
+                </div>
               </article>
-            </div>
-
-            <div className="clients-navigation">
-              <button type="button" className="client-arrow" onClick={() => changeClient(-1)} aria-label={t('home.trackRecord.navigation.previous')}>
-                <FaChevronLeft aria-hidden="true" />
-              </button>
-              <div className="client-dots" role="tablist" aria-label={t('home.trackRecord.navigation.indicators')}>
-                {clients.map((client, index) => (
-                  <button
-                    type="button"
-                    key={client.name}
-                    className={`client-dot${activeClient === index ? ' is-active' : ''}`}
-                    onClick={() => setActiveClient(index)}
-                    role="tab"
-                    aria-selected={activeClient === index}
-                    aria-label={t('home.trackRecord.navigation.indicator', { number: index + 1, name: client.name })}
-                  />
-                ))}
-              </div>
-              <button type="button" className="client-arrow" onClick={() => changeClient(1)} aria-label={t('home.trackRecord.navigation.next')}>
-                <FaChevronRight aria-hidden="true" />
-              </button>
             </div>
           </div>
         </section>
