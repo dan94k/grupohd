@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { 
@@ -10,7 +11,9 @@ import {
   FaCheckCircle,
   FaMedal,
   FaBook,
-  FaHandshake
+  FaHandshake,
+  FaChevronLeft,
+  FaChevronRight
 } from 'react-icons/fa'
 import './Home.css'
 
@@ -32,6 +35,15 @@ export default function Home() {
     { icon: <FaBook />, key: 'protocols' },
     { icon: <FaHandshake />, key: 'personalized' }
   ]
+
+  const clients = t('home.trackRecord.items', { returnObjects: true })
+
+  const [activeClient, setActiveClient] = useState(0)
+  const currentClient = clients[activeClient]
+
+  const changeClient = (direction) => {
+    setActiveClient((current) => (current + direction + clients.length) % clients.length)
+  }
 
   return (
     <div className="home">
@@ -81,21 +93,53 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Safe School Highlight */}
-      <section className="section safe-school-highlight">
+      {/* Clients / Track Record Section */}
+      <section className="section clients-section" aria-labelledby="clients-title">
         <div className="container">
-          <div className="highlight-content">
-            <div className="highlight-image">
-              <img src={`${import.meta.env.BASE_URL}images/safe-school-home.webp`} alt="Safe School - Segurança Escolar" />
+          <div className="clients-header">
+            <div>
+              <h2 id="clients-title">{t('home.trackRecord.title')}</h2>
+              <span className="clients-kicker">{t('home.trackRecord.subtitle')}</span>
             </div>
-            <div className="highlight-text">
-              <h2>{t('home.safeSchool.title')}</h2>
-              <h3>{t('home.safeSchool.subtitle')}</h3>
-              <p>{t('home.safeSchool.description')}</p>
-              <Link to="/safe-school" className="btn btn-primary">
-                {t('home.safeSchool.cta')}
-              </Link>
+            <span className="clients-count">{t('home.trackRecord.count', {
+              current: String(activeClient + 1).padStart(2, '0'),
+              total: String(clients.length).padStart(2, '0')
+            })}</span>
+          </div>
+
+          <div className="client-slide" aria-live="polite">
+            <div className="client-placeholder" aria-label={t('home.trackRecord.placeholder.ariaLabel', { number: String(activeClient + 1).padStart(2, '0'), name: currentClient.name })}>
+              <span className="client-placeholder-mark">{t('home.trackRecord.mark')}</span>
+              <span className="client-placeholder-label">{t('home.trackRecord.placeholder.label', { number: String(activeClient + 1).padStart(2, '0') })}</span>
             </div>
+            <article className="client-case">
+              <span className="client-eyebrow">{t('home.trackRecord.title')}</span>
+              <h3>{currentClient.name}</h3>
+              <h4>{currentClient.title}</h4>
+              <p>{currentClient.description}</p>
+            </article>
+          </div>
+
+          <div className="clients-navigation">
+            <button type="button" className="client-arrow" onClick={() => changeClient(-1)} aria-label={t('home.trackRecord.navigation.previous')}>
+              <FaChevronLeft aria-hidden="true" />
+            </button>
+            <div className="client-dots" role="tablist" aria-label={t('home.trackRecord.navigation.indicators')}>
+              {clients.map((client, index) => (
+                <button
+                  type="button"
+                  key={client.name}
+                  className={`client-dot${activeClient === index ? ' is-active' : ''}`}
+                  onClick={() => setActiveClient(index)}
+                  role="tab"
+                  aria-selected={activeClient === index}
+                  aria-label={t('home.trackRecord.navigation.indicator', { number: index + 1, name: client.name })}
+                />
+              ))}
+            </div>
+            <button type="button" className="client-arrow" onClick={() => changeClient(1)} aria-label={t('home.trackRecord.navigation.next')}>
+              <FaChevronRight aria-hidden="true" />
+            </button>
           </div>
         </div>
       </section>
@@ -120,6 +164,25 @@ export default function Home() {
             <Link to="/servicos" className="btn btn-outline">
               {t('home.services.viewAll')}
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Safe School Highlight */}
+      <section className="section safe-school-highlight">
+        <div className="container">
+          <div className="highlight-content">
+            <div className="highlight-image">
+              <img src={`${import.meta.env.BASE_URL}images/safe-school-home.webp`} alt="Safe School - Segurança Escolar" />
+            </div>
+            <div className="highlight-text">
+              <h2>{t('home.safeSchool.title')}</h2>
+              <h3>{t('home.safeSchool.subtitle')}</h3>
+              <p>{t('home.safeSchool.description')}</p>
+              <Link to="/safe-school" className="btn btn-primary">
+                {t('home.safeSchool.cta')}
+              </Link>
+            </div>
           </div>
         </div>
       </section>

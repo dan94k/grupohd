@@ -18,6 +18,59 @@
       "description": "Grupo HD ofrece servicios de seguridad privada con profesionales experimentados, procedentes de la seguridad pública y privada. Nuestro equipo está formado por profesionales con formación en el Ejército Brasileño y la Policía Militar, garantizando excelencia operacional y confianza absoluta.",
       "cta": "Conozca nuestra historia"
     },
+    "trackRecord": {
+      "title": "TRACK RECORD",
+      "subtitle": "Operaciones de seguridad, protección ejecutiva y apoyo logístico",
+      "count": "{{current}} / {{total}}",
+      "mark": "HD",
+      "placeholder": {
+        "label": "Proyecto {{number}}",
+        "ariaLabel": "Marcador de posición del proyecto {{number}}: {{name}}"
+      },
+      "navigation": {
+        "previous": "Ver caso anterior",
+        "next": "Ver próximo caso",
+        "indicators": "Casos de clientes",
+        "indicator": "Ver caso {{number}}: {{name}}"
+      },
+      "items": [
+        {
+          "name": "MAPFRE",
+          "title": "Operación de Protección Ejecutiva | Río de Janeiro",
+          "description": "Operación VIP realizada durante cuatro días, que incluyó traslados seguros de ejecutivos, acompañamiento personal, planificación de turnos, equipos dedicados y apoyo vehicular durante toda la programación. La actuación contempló diferentes jornadas y la adaptación del equipo a las necesidades operativas, garantizando continuidad, seguridad y eficiencia en los desplazamientos y compromisos de los ejecutivos."
+        },
+        {
+          "name": "iFood",
+          "title": "Protección Ejecutiva y Traslados",
+          "description": "Atención recurrente a ejecutivos de iFood, con operaciones de protección personal, acompañamiento y traslados. Operaciones en todo Brasil con agentes y vehículos blindados."
+        },
+        {
+          "name": "Shopee",
+          "title": "Vigilancia e Inspectores de Piso",
+          "description": "Movilización y asignación de vigilantes e inspectores de piso en los hubs de la operación."
+        },
+        {
+          "name": "Loggi",
+          "title": "Gestión de Riesgos y Apoyo Operativo",
+          "description": "Disponibilización de profesionales de gestión de riesgos y soporte a operaciones logísticas en diferentes localidades."
+        },
+        {
+          "name": "Angel Lira",
+          "title": "Escoltas",
+          "description": "Realización recurrente de operaciones de escolta, atendiendo necesidades de transporte y acompañamiento seguro."
+        },
+        {
+          "name": "Invicta",
+          "title": "Escoltas y Apoyo Operativo",
+          "description": "Ejecución de operaciones de escolta y soporte operativo según las necesidades de cada misión."
+        },
+        {
+          "name": "Grupo Altum",
+          "title": "Movilización y Planificación Operativa | São Paulo",
+          "description": "Proyecto de gran alcance que incluyó planificación de rutas, movilización en campo, relevamiento de profesionales y apoyo a la estructuración de operaciones en hubs en el estado de São Paulo."
+        }
+      ]
+    },
     "safeSchool": {
       "tag": "Proyecto Destacado",
       "title": "Safe School",

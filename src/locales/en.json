@@ -18,6 +18,59 @@
       "description": "HD Group offers private security services with experienced professionals from public and private security. Our team consists of professionals trained in the Brazilian Army and Military Police, ensuring operational excellence and absolute trust.",
       "cta": "Know our history"
     },
+    "trackRecord": {
+      "title": "TRACK RECORD",
+      "subtitle": "Security operations, executive protection and logistics support",
+      "count": "{{current}} / {{total}}",
+      "mark": "HD",
+      "placeholder": {
+        "label": "Project {{number}}",
+        "ariaLabel": "Project placeholder {{number}}: {{name}}"
+      },
+      "navigation": {
+        "previous": "View previous case",
+        "next": "View next case",
+        "indicators": "Client cases",
+        "indicator": "View case {{number}}: {{name}}"
+      },
+      "items": [
+        {
+          "name": "MAPFRE",
+          "title": "Executive Protection Operation | Rio de Janeiro",
+          "description": "Four-day VIP operation involving secure executive transfers, personal accompaniment, shift planning, dedicated teams and vehicle support throughout the program. The work covered different schedules and team adaptation to operational requirements, ensuring continuity, safety and efficiency in executives' journeys and commitments."
+        },
+        {
+          "name": "iFood",
+          "title": "Executive Protection and Transfers",
+          "description": "Recurring service for iFood executives, including personal protection, accompaniment and transfers. Operations throughout Brazil with agents and armored vehicles."
+        },
+        {
+          "name": "Shopee",
+          "title": "Security Guards and Floor Inspectors",
+          "description": "Deployment and placement of security guards and floor inspectors at the operation's hubs."
+        },
+        {
+          "name": "Loggi",
+          "title": "Risk Management and Operational Support",
+          "description": "Provision of risk-management professionals and support for logistics operations across different locations."
+        },
+        {
+          "name": "Angel Lira",
+          "title": "Escorts",
+          "description": "Recurring escort operations, serving transportation needs and secure accompaniment."
+        },
+        {
+          "name": "Invicta",
+          "title": "Escorts and Operational Support",
+          "description": "Execution of escort operations and operational support tailored to the requirements of each mission."
+        },
+        {
+          "name": "Grupo Altum",
+          "title": "Mobilization and Operational Planning | São Paulo",
+          "description": "Large-scale project involving route planning, field mobilization, recruitment of professionals and support in structuring hub operations in the state of São Paulo."
+        }
+      ]
+    },
     "safeSchool": {
       "tag": "Featured Project",
       "title": "Safe School",
