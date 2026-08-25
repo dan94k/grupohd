@@ -17,7 +17,8 @@ function App() {
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home showTrackRecord={false} />} />
+            <Route path="/home2" element={<Home showTrackRecord />} />
             <Route path="/sobre" element={<About />} />
             <Route path="/servicos" element={<Services />} />
             <Route path="/safe-school" element={<SafeSchool />} />
