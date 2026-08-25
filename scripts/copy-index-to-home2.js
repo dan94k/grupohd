@@ -6,5 +6,5 @@ const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 
 await copyFile(
   resolve(projectRoot, 'dist/index.html'),
-  resolve(projectRoot, 'dist/404.html')
+  resolve(projectRoot, 'dist/home2.html')
 )
